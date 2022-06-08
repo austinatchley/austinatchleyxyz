@@ -1,6 +1,6 @@
-logoText = "Zzo"
+logoText = "Post Bag Productions"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "One of the SoundCloud Bands in the World"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -60,14 +60,13 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "Post Bag Productions"
+email = "postbagproductions@gmail.com"
+whoami = "SoundCloud Band"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "Seattle, USA"
+link = "https://soundcloud.com/user-29196735-533247469"
 
 # sidebar
 enableBio = true
@@ -92,7 +91,7 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -161,11 +160,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:postbagproductions@gmail.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  twitter = ""
+  github = ""
   stack-overflow = ""
   instagram = ""
   google-plus = ""
