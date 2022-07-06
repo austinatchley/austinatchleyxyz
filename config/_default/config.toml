@@ -1,4 +1,4 @@
-baseURL = "http://staticsitebucket-austinatchleyaws.s3-website-us-west-2.amazonaws.com/"
+baseURL = "austinatchley.xyz"
 title   = "Austin Atchley"
 languageCode = "en-us"
 theme = "hello-friend-ng"
