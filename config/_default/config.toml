@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "http://staticsitebucket-austinatchleyaws.s3-website-us-west-2.amazonaws.com/"
 title   = "Austin Atchley"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -77,7 +77,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -91,7 +91,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
