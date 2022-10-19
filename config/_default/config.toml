@@ -1,4 +1,4 @@
-baseURL = "austinatchley.xyz"
+baseURL = "https://www.austinatchley.xyz/"
 title   = "Austin Atchley"
 languageCode = "en-us"
 theme = "hello-friend-ng"
