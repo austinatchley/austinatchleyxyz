@@ -20,7 +20,7 @@ buildDrafts  = false
 buildFuture  = false
 buildExpired = false
 canonifyURLs = true
-relativeURLs = true
+# relativeURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = false
@@ -79,6 +79,7 @@ disableHugoGeneratorInject = false
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
   enableThemeToggle = true
+  defaultTheme = "dark"
 
   # Sharing buttons
   #
@@ -196,15 +197,13 @@ order = [".jpg$", ".gif$"]
 
 
 [[deployment.targets]]
-# An arbitrary name for this target.
-name = "aws-s3-bucket"
+name = "austinatchley.xyz"
 
 # S3; see https://gocloud.dev/howto/blob/#s3
-# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
 URL = "s3://staticsitebucket-austinatchleyaws?region=us-west-2"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID = "E1LZQIO6NM6TPB"
+cloudFrontDistributionID = "EPBD5YIHCM3QO"
 
 # [[deployment.matchers]] configure behavior for files that match the Pattern.
 # See https://golang.org/pkg/regexp/syntax/ for pattern syntax.
