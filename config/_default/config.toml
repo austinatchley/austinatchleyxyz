@@ -177,10 +177,6 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
@@ -188,6 +184,11 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "projects/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
