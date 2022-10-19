@@ -1,1 +1,2 @@
+hugo
 hugo deploy --force
