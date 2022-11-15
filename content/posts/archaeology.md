@@ -1,0 +1,27 @@
++++
+title = "Applying AI to Archaeology for Classification"
+date = "2022-11-14"
+aliases = ["/posts/archaeology/"]
++++
+
+> Re-published from a [2019 Medium post](https://medium.com/datadriveninvestor/archaeology-in-the-age-of-ai-75d2e538e584)
+
+If you were asked to envision an archaeologist, what would come to mind? Perhaps an Indiana Jones-esque figure, digging in dusty soil in search of a long lost treasure.
+
+![Petra](/petra.png "Petra")
+
+This is the romantic idea of archaeology fed by the media. However, today’s biggest challenge in archaeology is not to make new discoveries, but to work through the [ever-increasing body of already excavated and digitized objects](http://www.aincient.org/blog/excavations-2-0-aincient-uses-artificial-intelligence-unlock-past/). Attempting to draw conclusions from so many artifacts, researchers have no choice but to look at a narrow subset. It simply isn’t possible to look through every relevant record now, limiting researchers’ abilities to see broad patterns. How do we find a needle in the haystack of existing digital collections? Developments in artificial intelligence and machine learning (AI and ML, respectively) will enable us to classify existing digitized archaeological artifacts, improving the searchability of data and helping us to better understand ancient cultures.
+
+Archaeology is the study of human history through the excavation of sites and the analysis of physical remains. Nowadays, archaeologists find themselves searching through mountains of collected data, but this doesn’t have to be the case. Much of this work is readily automatable. The [GlobalXplorer initiative](https://www.globalxplorer.org/about) has crowdsourced analyzing satellite imagery. Participants help detect for looting sites in Peru. Soon, humans could be removed from the process entirely, but this work is useful in its own right because, once the machine learning approach is implemented, human work can be repurposed as training data.
+
+Additionally, recent developments allow researchers to more effectively search through digital collections — [sorting by location, shape, and more](https://blog.paessler.com/augmented-reality-artificial-intelligence-and...-archeology-an-unexpected-combination). This is a game-changer. While effective methods of sorting records have already been invented, most human-based approaches to data analysis will be vastly outpaced by a computer-based algorithmic approach given that the analysis does not require human subjectivity. In this case, we are analyzing for location, shape, and other physical properties of artifacts, which are all digitizable properties.
+
+Lastly, machine learning could be applied to collecting, translating, and analyzing literary corpora written in ancient languages. Machine learning models do not need to ‘understand’ what they are analyzing. In fact, they can’t. In many cases, researchers find ancient languages hard to understand, and taking a machine learning-oriented approach might help. This is not a blanket solution, but it could help in situations where a ‘brute force’ solution seems to be the only way forward.
+
+![Overhead view of the Great Pyramids](/pyramids.png "Overhead view of the Great Pyramids")
+
+Because machine learning is readily applicable to archaeological collections, there will be a profound effect on the profession of archaeology. If we have powerful AI/ML systems to do automatable work, archaeologists could focus instead on supplementing these powerful algorithmic techniques. There are three foreseeable specializations archaeologists could shift into: programming machine learning models, digitizing collections to be fed into the models, and interpreting the AI-driven results. However, the effects do not stop with archaeology as a profession. The industry itself will also be deeply affected. Archaeologists are in the business of making knowledge, and utilizing machine learning will increase the speed at which this knowledge is produced. Furthermore, by requiring less manpower, these techniques reduce the funding necessary to facilitate knowledge-making. Moreover, the consumers of archaeological knowledge (broadly, museums, universities, and the general public) will be affected. We could consider these consumers to be the ‘customers’ of archaeology, and if ML tools completed automatable work, they would get more knowledge without cost.
+
+AI would work well in the field of archaeology because most of the data is digitizable, and contemporary problems require the classification of enormous digital collections. Computers are better at considering, classifying, and drawing parallels from such quantifiable metrics as the shape of a jug. However, adjacent fields to archaeology, like ancient history or anthropology, might not be able to benefit beyond advances provided by archaeology.
+
+In the end, machine learning is not a blanket solution. It is difficult to digitize problems that require subjective expertise. Luckily, the field of archaeology poses problems that allow us to encode expertise, and thus, we can benefit from all the advancements I’ve outlined above.
