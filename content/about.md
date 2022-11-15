@@ -4,6 +4,11 @@ date = "2022-06-05"
 aliases = ["/about/","/contact/"]
 +++
 
-Austin is a software engineer who graduated from the University of Texas at Austin in 2020. He received degrees with honors in computer science and the liberal arts. He currently works at AWS
+## :wave: Austin Atchley is a software engineer in Seattle, WA
 
-[https://www.linkedin.com/in/austin-atchley/](https://www.linkedin.com/in/austin-atchley/)
+
+I graduated from the University of Texas at Austin in 2020 with honors with degrees in computer science and liberal arts. I attended the Plan II Honors program, which does its best to replicate a liberal arts school experience within a state school. 
+
+I currently work at Amazon as an SDE working in identity and access management. I previously was as an intern on teams where I worked on C++ game engine development and federated authentication web services. I wrote an [undergraduate thesis](/thesis.pdf) on the philosophical underpinnings of the development of self-driving car technology, exploring ethical challenges now faced by the developer, the end-user, and the moral agent.
+
+Please reach out via [LinkedIn](https://www.linkedin.com/in/austin-atchley/) if you're interested in working together, or just want to chat.
