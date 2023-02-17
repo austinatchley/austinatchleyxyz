@@ -24,11 +24,12 @@ See [my GitHub](https://github.com/austinatchley) for the full up-to-date list o
 
 ### [`gtracer`](https://github.com/loganzartman/gtracer)
 
-![A bunny](/images/bunny.png "A bunny")
-
 A GPU-accelerated, highly-parallel path tracer renderer. Supports multiple rendering paradigms and features, such as CPU multithreading, CUDA multithreading, scene management, and realistic reflection/refraction simulation
 
-![A refracted bunny](/images/refraction_bunny.png "A bunny made with material that has refractive properties")
+| Rabbit with diffuse material | | Rabbit with refractive material |
+| ----------- | ----------- | ----------- |
+| ![](/images/bunny.png "A bunny") | | ![](/images/refraction_bunny.png "A bunny made with material that has refractive properties") |
+
 
 ---
 
