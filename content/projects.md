@@ -14,7 +14,7 @@ I'm currently working on a project using Remix, PostgreSQL, and Fly.io called [M
 
 ### This website
 
-I have also been working on adding more features to this website recently. You can see how I got it setup initially from the [Hello World blog post](/posts/2022/10/hello-world) I wrote previously. More recently, I have been working on modifying my forked theme to improve the aesthetics, and small QoL improvements for users of the website, such as correctly displaying favicons and optimizing page load speeds.
+I have also been working on adding more features to this website recently. You can see how I got it setup initially from the [Hello World blog post](/posts/2022/10/hello-world/) I wrote previously. More recently, I have been working on modifying my forked theme to improve the aesthetics, and small QoL improvements for users of the website, such as correctly displaying favicons and optimizing page load speeds.
 
 ## Past Projects
 
