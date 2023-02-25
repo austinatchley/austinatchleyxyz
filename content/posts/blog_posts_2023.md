@@ -17,7 +17,7 @@ TODO
 
 TODO
 
-### [`A reference guide for fintech & small-data engineering`](https://medium.com/dangerous-engineering/a-reference-guide-for-fintech-small-data-engineering-bd65b9796d90#64f0)
+### [`Things they didn’t teach you about Software Engineering`](https://vadimkravcenko.com/shorts/things-they-didnt-teach-you/)
 
 TODO
 
