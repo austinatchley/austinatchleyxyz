@@ -103,7 +103,7 @@ disableHugoGeneratorInject = false
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true # Set "text-align: justify" to .post-content.
 
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
