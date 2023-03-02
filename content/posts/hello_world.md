@@ -1,7 +1,6 @@
 +++
 title = "Hello World!"
 date = "2022-10-19"
-aliases = ["/posts/hello_world/"]
 +++
 
 ## Hello World!

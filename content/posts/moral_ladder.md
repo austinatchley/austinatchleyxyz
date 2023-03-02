@@ -1,7 +1,6 @@
 +++
 title = "From Atomic Bombs to Autonomous Weapons: Climbing The Ladder of Moral Abstraction"
 date = "2022-11-14"
-aliases = ["/posts/moral_ladder/"]
 +++
 
 > Re-published from a [2019 Medium post](https://medium.datadriveninvestor.com/from-atomic-bombs-to-autonomous-weapons-18cfcf5d0130):

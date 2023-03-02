@@ -1,7 +1,6 @@
 +++
 title = "Le Guin’s 'The Ones Who Walk Away From Omelas:' Moral Dilemmas and Authorial Intent"
 date = "2022-11-14"
-aliases = ["/posts/le_guin/"]
 +++
 
 > Re-published from a [2019 Medium post](https://medium.com/@austinatchley/understanding-the-ones-who-walk-away-from-omelas-unpacking-moral-dilemma-and-authorial-intent-341d145024ae):

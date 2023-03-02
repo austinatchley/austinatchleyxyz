@@ -1,7 +1,6 @@
 +++
 title = "Applying AI to Archaeology for Classification"
 date = "2022-11-14"
-aliases = ["/posts/archaeology/"]
 +++
 
 > Re-published from a [2019 Medium post](https://medium.com/datadriveninvestor/archaeology-in-the-age-of-ai-75d2e538e584)

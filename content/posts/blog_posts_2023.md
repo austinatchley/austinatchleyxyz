@@ -1,7 +1,6 @@
 +++
 title = "My Favorite Tech Blog Posts of 2023"
 date = "2023-02-25"
-aliases = ["/posts/blog_posts_2023/"]
 draft = "true"
 +++
 
