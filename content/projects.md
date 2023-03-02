@@ -10,7 +10,7 @@ aliases = ["/projects/"]
 
 I'm currently working on a project using Remix, PostgreSQL, and Fly.io called [Message in a Bottle](https://message-in-a-bottle.fly.dev/). It has been quite a learning experience since I have never used many of the technologies previously. For now, you can check my progress on [the GitHub repo](https://github.com/austinatchley/message-in-a-bottle), but I'm hoping to write-up a post centered on this project in the near future as well.
 
-![Message in a Bottle](/images/message_in_a_bottle.png "Message in a Bottle")
+![Message in a Bottle](/images/message_in_a_bottle.jpg "Message in a Bottle")
 
 ### This website
 
@@ -28,14 +28,14 @@ A GPU-accelerated, highly-parallel path tracer renderer. Supports multiple rende
 
 | Rabbit with diffuse material | | Rabbit with refractive material |
 | ----------- | ----------- | ----------- |
-| ![](/images/bunny.png "A bunny") | | ![](/images/refraction_bunny.png "A bunny made with material that has refractive properties") |
+| ![](/images/bunny.jpg "A bunny") | | ![](/images/refraction_bunny.jpg "A bunny made with material that has refractive properties") |
 
 
 ---
 
 ### [`F-1/10 Autonomous Vehicle AI`](https://github.com/austinatchley/F1-10-Autonomous-Driving)
 
-![An example of the hardware used for this project](/images/f1-10_cars.png "An example of the hardware used for this project")
+![An example of the hardware used for this project](/images/f1-10_cars.jpg "An example of the hardware used for this project")
 
 This course required me to write software to autonomously drive an R/C car that is approximately 1/10th the size of a real car (hence the name F1/10). In order to achieve this, I wrote code borrowing algorithms from time-optimal control, path planning, and state estimation. The COVID-19 pandemic might have forced us to cancel the final in-person demo, but the software repo is still up and functional. In a time of need during the beginning of the pandemic, several TAs and my classmates worked together to create more tooling around simulating the final demo, and we were able to test our AI after all
 
@@ -43,7 +43,7 @@ This course required me to write software to autonomously drive an R/C car that 
 
 ### [`fortress-commander`](https://github.com/kasrasadeghi/fortress-commander)
 
-![fortress commander](/images/fortress_commander.png "fortress commander")
+![fortress commander](/images/fortress_commander.jpg "fortress commander")
 
 An RTS from scratch, including its own engine. This was a group project, and we implemented a rendering engine in OpenGL, an Entity-Component-System library in pure C++, and an AI engine as individual components. Complete with programmer art :)
 
@@ -51,6 +51,6 @@ An RTS from scratch, including its own engine. This was a group project, and we 
 
 ### [`carboff`](https://github.com/loganzartman/carboff)
 
-![carboff](/images/carboff.png "carboff")
+![carboff](/images/carboff.jpg "carboff")
 
 Proof-of-concept for a browser-extension that tracks the estimated carbon emissions resulting from your internet usage. I used this project to think deeper on the role that software has in our lives as responsible citizens of the world
