@@ -5,7 +5,7 @@ date = "2023-03-01"
 
 ## Introduction
 
-Recently I have been teaching myself more about web development using static-site generation for this website, and Remix for [my other main project](/projects). CSS has been one of the biggest learning curves, as I have thus far considered myself as primarily a backend engineer and never got around to learning the basics of the front-end world
+Recently I have been teaching myself more about web development using static-site generation for this website, and Remix for [my other main project](/projects/). CSS has been one of the biggest learning curves, as I have thus far considered myself as primarily a backend engineer and never got around to learning the basics of the front-end world
 
 For this website, I use a modified version of https://github.com/rhazdon/hugo-theme-hello-friend-ng. Recently I realized that, by default, images are left justified, and I thought it might improve the aesthetics of my site if they were center justified by default instead. It wasn't straightforward to change this since each theme is different and you will have to dive into the CSS for your project in order to find a solution that works for you. Here, I will briefly detail my solution in case it helps anyone else facing the same issue.
 
