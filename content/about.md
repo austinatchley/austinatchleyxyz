@@ -4,11 +4,11 @@ date = "2022-06-05"
 aliases = ["/about/","/contact/"]
 +++
 
-## :wave: Austin Atchley is a software engineer in Seattle, WA
+## :wave: Austin Atchley is a software engineer based in NYC
 
 
-I graduated from the University of Texas at Austin in 2020 with honors with degrees in computer science and liberal arts. I attended the Plan II Honors program, which does its best to replicate a liberal arts school experience within a state school. 
+I attended the University of Texas at Austin in 2020 with honors with degrees in computer science and liberal arts. I took part in the Plan II Honors program, which replicates a liberal arts college experience within UT. I wrote an [undergraduate thesis](/documents/thesis.pdf) analyzing the philosophical underpinnings of the development of self-driving car technology, exploring ethical challenges faced by developer, end-users, and moral agents alike. 
 
-I currently work at Amazon as an SDE working in identity and access management. I previously was as an intern on teams where I worked on C++ game engine development and federated authentication web services. I wrote an [undergraduate thesis](/documents/thesis.pdf) on the philosophical underpinnings of the development of self-driving car technology, exploring ethical challenges faced by the developer, the end-user, and the moral agent.
+During college, I worked at Amazon as an intern, on teams where I worked on a range of different projects -- from game engine development to authentication and identity web services used as core internal Amazon infrastructure. In industry, I have worked for 3 years full-time at Amazon in Seattle, as an SDE working on internal tooling and infrastructure. In this time, I have developed interests in development on backend and distributed systems using cloud technologies such as AWS Lambda, DynamoDB, CloudWatch, and Route 53. 
 
 Please reach out via [LinkedIn](https://www.linkedin.com/in/austin-atchley/) if you're interested in working together, or just want to chat. You can also find [a version of my résumé](/documents/resume.pdf) hosted on this website.
