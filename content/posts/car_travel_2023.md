@@ -1,5 +1,5 @@
 +++
-title = "The Joys and Guilts of Car Travel"
+title = "Thoughts on Car Travel in America"
 date = "2023-07-18"
 +++
 
