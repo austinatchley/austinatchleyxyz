@@ -188,6 +188,11 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
+  [[menu.main]]
+    identifier = "résumé"
+    name       = "Résumé"
+    url        = "documents/resume.pdf"
+
 
 
 [deployment]
