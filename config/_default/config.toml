@@ -149,12 +149,11 @@ disableHugoGeneratorInject = false
   # [params.commento]
   #   url = ""
 
-  # Uncomment this if you want a portrait on your start page
-  #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  # Comment this if you don't want a portrait on your start page
+  [params.portrait]
+    path     = "/images/portrait.jpg"
+    alt      = "Portrait"
+    maxWidth = "200px"
 
   # Social icons
   [[params.social]]
