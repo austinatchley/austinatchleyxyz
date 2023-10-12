@@ -1,5 +1,5 @@
 +++
-title = "I Moved to New York City 🗽"
+title = "🗽 I Moved to New York City"
 date = "2023-10-11"
 +++
 
