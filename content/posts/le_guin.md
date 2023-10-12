@@ -13,7 +13,6 @@ Duty-based ethics is a contrasting theory to Utilitarianism, arguing that some r
 
 To return to Le Guin’s short story, if the boy trapped in the Omelas basement was freed, the city’s prosperity would crumble, and its beauty would be lost. We are forced to ask ourselves if this is right. When one performs the moral calculus, it seems imperative that we prioritize the happiness of the entire city over that of the boy. Nonetheless, when numbers come to life, represented by people with whom we empathize, the decision becomes difficult. Utilitarianism posits that torturing the boy is the only morally permissible action, whereas adherents to duty-based ethics feel that this is wrong. Some citizens leave Omelas. Others stay.
 
-
 Does the happiness of many justify the misery of one?
 Ursula K. Le Guin wrote speculative fiction, taking the real and re-molding it into what could be. Here, she asks us to consider a world in which our happiness depends on the misery of another. In doing this, she suggests a more incisive point: maybe it already does. Western society depends on quasi-slave labor for the supply of luxuries, such as cheap electronics or two-day shipping. Le Guin isn’t just writing about a fictional society. She’s talking about all of us.
 
