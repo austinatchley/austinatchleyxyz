@@ -19,12 +19,11 @@ One of the things that has rung clear to me throughout 2023 is that we have buil
 
 With more software developers beginning their careers in 2023 than ever before, I often wonder just how many of them lack the "traditional" mentoring experience, and substitute this instead with documentation and tutorials. This is usually entirely company- or team-dependent, so it's often up to chance on how much mentorship you will actually receive in your first few years of software development, whether you have a degree or not. I find this article to be a great primer for all noobs in the industry, whether they had those mentor figures or not. I know it certainly helped reinforce some of the ways I think about things
 
-### [👩‍🎨 Being "rockstars": when software was a talents/creatives industry 🎭](https://morepablo.com/2023/06/creatives-industries.html)
+### [`👩‍🎨 Being "rockstars": when software was a talents/creatives industry 🎭`](https://morepablo.com/2023/06/creatives-industries.html)
 
 This blog post pushes the boundaries of what we accept as normal software industry dynamics in 2023. As someone who joined the industry in 2020, it's easy to fall into the trap of assuming that things have always been this way, or that things could never be different in the future. Reading about others' diverse experiences across the industry, such as Pablo's here, makes me wonder how things could develop in the next few years
 
-
-### [Software and its Discontents (Part 1 of 3)](https://laughingmeme.org/2023/01/16/software-and-its-discontents-part-1.html)
+### [`Software and its Discontents (Part 1 of 3)`](https://laughingmeme.org/2023/01/16/software-and-its-discontents-part-1.html)
 
 This is 2 of a 3 part series on current events in the software industry that resonated with me. Perspectives like this continue to reinforce to me the power of simplicity in software, especially since complexity is the enemy of well-functioning teams. Software has the unique ability to increase in complexity exponentially, so this is necessary to take seriously in our industry
 
@@ -33,3 +32,9 @@ This is 2 of a 3 part series on current events in the software industry that res
 ### [`Scale-to-Zero Minecraft Server With Terraform and Fly Machines`](https://fly.io/blog/scale-to-zero-minecraft/)
 
 Modding Minecraft is how I learned "real" programming. I've taught summer camps about Minecraft modding since, and it has always amazed me how great of a learning tool this one game can be -- even if you are just running it in the cloud! Fly.io has been an innovator in cloud technology for a while now, and I definitely recommend checking out more of their articles and tutorials on the linked site
+
+## Web
+
+### [`Building a Collaborative Pixel Art Editor with CRDTs`](https://jakelazaroff.com/words/building-a-collaborative-pixel-art-editor-with-crdts/)
+
+Part II of a great technical deep dive series on CRDTs using an example of two mirrored HTML canvases. I love the easy to follow code examples, while still getting deep into the weeds
