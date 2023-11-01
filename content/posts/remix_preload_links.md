@@ -38,3 +38,27 @@ Let's dive a bit deeper on each one and its respective behavior.
 
 ### `viewport`
 
+## Conclusion
+
+```md
+Notes: // TODO: remove this
+-----------
+Source: https://dev.to/isnan__h/remix-prefetch-fetch-data-ahead-of-time-1dhb
+-----------
+The main advantage of this is this eliminates about 1-2seconds of latency delay to fetch data from our server. Along with the subtle benefits like respecting HTTP cache headers, doing the work in browser idle time, using a different thread than your app and more. Link can automatically prefetch all the resources the next page needs: JavaScript modules, stylesheets, and data. This prop controls if and when that happens.
+
+We can pass three different options to prefetch.
+
+"none"
+Default behavior. This will prevent any prefetching from happening. This is recommended when linking to pages that require a user session that the browser won't be able to prefetch anyway.
+
+"intent"
+Recommended if you want to prefetch. Fetches when Remix thinks the user intends to visit the link. Right now the behavior is simple: if they hover or focus the link it will prefetch the resources. In the future we hope to make this even smarter. Links with large click areas/padding get a bit of a head start. It is worth noting that when using prefetch="intent", elements will be inserted on hover/focus and removed if the loses hover/focus. Without proper cache-control headers on your loaders this could result in repeated prefetch loads if a user continually hovers on and off a link.
+
+"render"
+Fetches when the link is rendered.
+
+This is taken from official documentation of Remix. You can find it here. You can also prefetch all the assets like data, modules, css before time please lean more about it here.
+
+Remix uses browser cache under the hood for prefetching HTML which is really cool.
+```
