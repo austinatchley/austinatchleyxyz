@@ -53,7 +53,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Website by Austin Atchley"
+  description = "austinatchley.xyz"
   keywords = ""
   images = [""]
 
@@ -169,7 +169,7 @@ disableHugoGeneratorInject = false
 
   [languages]
   [languages.en]
-    subtitle  = "Austin Atchley's Website"
+    subtitle  = "austinatchley.xyz"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
