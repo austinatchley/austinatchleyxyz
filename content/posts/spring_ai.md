@@ -3,7 +3,7 @@ title = "Spring AI: A Pleasant Tool for Building LLM-Based Web Services"
 date = "2024-05-15"
 +++
 
-In a small gap between two jobs, I started working on a simple idea for a creative, multi-modal (text-to-text and text-to-image) AI-based web application. I had been tracking [the open-source development](https://github.com/spring-projects/spring-ai) of [the Spring AI project](https://spring.io/projects/spring-ai), and thought it would be the perfect opportunity to evaluate the project for my idea.
+In a short gap between two jobs, I started working on a simple idea for a creative, multi-modal (text-to-text and text-to-image) AI-based web application. I had been tracking [the open-source development](https://github.com/spring-projects/spring-ai) of [the Spring AI project](https://spring.io/projects/spring-ai), and thought it would be the perfect opportunity to evaluate the project for my idea.
 
 While life has gotten in the way of my finishing of the project so far (the frontend is essentially non-existent still :skull:), it has been a genuinely fun experience to use tools for building AI-backed applications. I find that their methods of usage breed creativity, and the lack of limitations makes the ideation process quite enjoyable.
 

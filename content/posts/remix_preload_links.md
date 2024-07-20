@@ -7,9 +7,9 @@ date = "2024-07-20"
 
 Over the past year, I have been diving deeper into [Remix](https://www.remix.run), a framework for building simpler websites based on web standards plus a pleasing UX, for my project [`message-in-a-bottle`](https://github.com/austinatchley/message-in-a-bottle). Discovering the world of frontend programming has been quite interesting, and I've run into a few unexpected features in Remix worth sharing.
 
-Here, I'd like to do a short deep dive on the [prefetch link features](https://remix.run/docs/en/main/components/link#prefetch) provided by Remix, in particular.
+Here, I'd like to do a short deep dive on the [prefetch link features](https://remix.run/docs/en/main/components/link#prefetch) provided by Remix to show an example of a simple feature that can have huge benefits on the UX of your site.
 
-Example usage of the React component:
+Example usage of the `Link` React component:
 ```html
 <Link to="/about" prefetch="intent" className="...">
   About
@@ -46,6 +46,7 @@ Remix's prefetching capabilities offer significant performance benefits by reduc
 
 -----------
 Sources: 
+
 * https://dev.to/isnan__h/remix-prefetch-fetch-data-ahead-of-time-1dhb
 * https://www.remix.run
 * https://remix.run/docs/en/main/components/link#prefetch
