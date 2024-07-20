@@ -3,7 +3,7 @@ title = "🗽 I Moved to New York City"
 date = "2023-10-11"
 +++
 
-After living in Seattle for the past 3 years, I moved to New York in August. For my first apartment, I found an apartment in Yorkville on the Upper East Side of Manhattan, and I'm currently working on my [message-in-a-bottle](https://message-in-a-bottle.fly.dev/) fullstack web app project while getting settled.
+After living in Seattle for the past 3 years, I moved to New York in August. For my first apartment, I found the Yorkville neighborhood on the Upper East Side of Manhattan to be quite agreeable, and I'm currently working on my [message-in-a-bottle](https://message-in-a-bottle.fly.dev/) fullstack web app project while getting settled.
 
 ![Central Park in the Fall](/images/nyc_central_park_fall.jpg "Central Park in the Fall")
 
