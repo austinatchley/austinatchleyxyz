@@ -1,7 +1,6 @@
 +++
 title = "Easily Prefetch Links in Remix"
 date = "2024-07-20"
-draft = true
 +++
 
 ## Introduction
