@@ -8,7 +8,7 @@ aliases = ["/about/","/contact/"]
 
 I'm a software engineer and musician based in NYC. A generalist by trade, I aim to build pleasant, cohesive experiences through code and sound :computer: :notes:
 
-I graduated from the University of Texas at Austin in 2020, earning dual degrees in computer science and a [liberal arts honors program](https://liberalarts.utexas.edu/plan2/). I wrote an [undergraduate thesis](/documents/thesis.pdf) analyzing the philosophical underpinnings of self-driving car technology, exploring ethical challenges from the perspectives of self-driving passengers and software developers.
+I graduated from the University of Texas at Austin in 2020, earning dual degrees in computer science and a [liberal arts honors program](https://liberalarts.utexas.edu/plan2/curriculum/). I wrote an [undergraduate thesis](/documents/thesis.pdf) analyzing the philosophical underpinnings of self-driving car technology, exploring ethical challenges from the perspectives of self-driving passengers and software developers.
 
 During college, I interned at Amazon Web Services on a range of teams -- working on game engines and internal security web services, among other projects. After college, I continued to work for AWS at the Seattle HQ for 3 years. During this time, I focused on building new internal security and identity services, largely using serverless technology.
 
