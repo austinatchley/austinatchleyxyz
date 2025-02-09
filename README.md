@@ -1,10 +1,10 @@
-[austinatchley.xyz](https://www.austinatchley.xyz)
+# [austinatchley.xyz](https://www.austinatchley.xyz)
 
 ## Installation
 
 Clone this repository, cd into it, and run the following command:
 
-```
+```bash
 git clone --depth 1 --recursive https://github.com/austinatchley/hugo-theme-hello-friend-ng themes/hello-friend-ng
 ```
 
