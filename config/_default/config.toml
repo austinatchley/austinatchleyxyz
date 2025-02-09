@@ -59,7 +59,7 @@ images = [""]
 
 # Home subtitle of the index page.
 #
-homeSubtitle = "Software Engineer and Musician in NYC"
+homeSubtitle = "software & music"
 
 # Set a background for the homepage
 # backgroundImage = "assets/images/background.jpg"
@@ -115,7 +115,7 @@ copyright = false
 author = true
 
 topText = []
-bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+bottomText = ["Built with <a href=\"http://gohugo.io\">Hugo</a>"]
 
 # Colors for favicons
 #
