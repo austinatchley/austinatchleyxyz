@@ -6,7 +6,9 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate = 15
+[pagination]
+pagerSize = 15
+
 rssLimit = 15                                                                      # Maximum number of items in the RSS feed.
 copyright = "Creative Commons Attribution-NonCommercial 4.0 International License" # This message is only used by the RSS template.
 
@@ -33,9 +35,6 @@ disableHugoGeneratorInject = false
 
 [permalinks]
 posts = "/posts/:year/:month/:title/"
-
-[author]
-name = "Austin Atchley"
 
 [blackfriday]
 hrefTargetBlank = true
@@ -151,6 +150,10 @@ logoCursorColor = "#059669"
 path = "/images/portrait.jpg"
 alt = "Portrait"
 maxWidth = "200px"
+
+# Author information
+[params.author]
+name = "Austin Atchley"
 
 # Social icons
 [[params.social]]

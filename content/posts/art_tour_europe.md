@@ -3,7 +3,7 @@ title = "👨‍🎨 An Art Tour of Europe"
 date = "2023-12-16"
 +++
 
-While recovering from my second bout of COVID, I have been looking back through the pictures I took on my around-the-world trip this summer ([which you can read more about here]({{< ref "/rtw" >}})). On the Europe leg of the trip, we were lucky enough to visit some of the best museums in the world, but we also found some inspiring art in unexpected places. Excluding famous works, here are some selected favorites:
+While recovering from my second bout of COVID, I have been looking back through the pictures I took on my around-the-world trip this summer ([which you can read more about here]({{< ref "/posts/rtw" >}})). On the Europe leg of the trip, we were lucky enough to visit some of the best museums in the world, but we also found some inspiring art in unexpected places. Excluding famous works, here are some selected favorites:
 
 ## Paris
 
