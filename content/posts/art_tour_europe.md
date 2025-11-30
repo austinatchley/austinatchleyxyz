@@ -47,4 +47,4 @@ I can't find the name of the full painting, but I couldn't stop laughing at this
 
 ## Conclusion
 
-That's it for now, but I have way too many pictures of this trip. I would love to create some more collections around different ideas (e.g. architecture, gardens, food, etc.), and I might. But that all depends on how fast I recover from COVID and have to get back to work :stuck_out_tongue: Stay tuned for more! :v:
+That's it for now, but I have way too many pictures of this trip. I would love to create some more collections around different ideas (e.g. architecture, gardens, food, etc.), and I might. But that all depends on how fast I recover from COVID and have to get back to work 😜 Stay tuned for more! ✌️

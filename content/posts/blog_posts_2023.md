@@ -3,7 +3,7 @@ title = "🎯 My Favorite Blog Posts of 2023"
 date = "2023-05-01"
 +++
 
-I'm using this page as a way to track a running list of tech blog posts that have caught my interest this year. This is primarily meant to be a living document for my own purposes, but it will also eventually serve as a historical record and a reference for visitors like you! :wave:
+I'm using this page as a way to track a running list of tech blog posts that have caught my interest this year. This is primarily meant to be a living document for my own purposes, but it will also eventually serve as a historical record and a reference for visitors like you! 👋
 
 ## Tech Industry
 

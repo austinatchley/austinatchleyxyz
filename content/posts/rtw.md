@@ -11,4 +11,4 @@ I recently decided to leave my job at Amazon, and I'm preparing for a move to NY
 
 I'm also planning to use the time as a break from working in tech, but with the current rate of innovation in AI this year, I might decide to pick up a fun project or two anyway. It also means that I can post here more, which I'm excited about as well
 
-More updates to come... :v:
+More updates to come... ✌️
