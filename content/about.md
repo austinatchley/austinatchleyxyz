@@ -6,7 +6,7 @@ aliases = ["/about/","/contact/"]
 
 ## Hey there 👋 welcome to my website 
 
-I'm a software engineer and musician based in NYC. A generalist by trade, I enjoy building worlds through code and sound 💻 🎶
+I'm a software engineer and musician based in NYC. A generalist by trade, I enjoy building worlds with code and sound 💻 🎶
 
 I graduated from the University of Texas at Austin in 2020, earning dual degrees from the computer science department and a [liberal arts program called Plan II Honors](https://liberalarts.utexas.edu/plan2/curriculum/). I wrote an [undergraduate thesis](/documents/thesis.pdf) analyzing the philosophical underpinnings of self-driving technology, exploring ethical challenges from the perspectives of developers, drivers, and passengers.
 
