@@ -58,7 +58,7 @@ images = [""]
 
 # Home subtitle of the index page.
 #
-homeSubtitle = "software & music"
+homeSubtitle = "code + music"
 
 # Set a background for the homepage
 # backgroundImage = "assets/images/background.jpg"
@@ -136,7 +136,7 @@ logoCursorColor = "#059669"
 
 # Comment this if you don't want a portrait on your start page
 [params.portrait]
-path = "/images/portrait.png"
+path = "/images/portrait.jpg"
 alt = "Portrait"
 maxWidth = "400px"
 
