@@ -13,4 +13,4 @@ If you don't have access to a streaming service, [you can also listen to the ful
 
 This is a project I've been working on for the past year along with my creative partner, [Sudarshan](https://www.instagram.com/sudhabuddha/). We perserved through several cross-country moves (from Seattle to Manhattan to Brooklyn, and from Seattle to Dallas), busy schedules, and many creative blocks to put this project out. We're excited to share a view into our lives over the past year.
 
-If you dig the album, [come follow us on Instagram](https://www.instagram.com/postbagproductions/) ✌️
+If you dig the album, [come follow us on Instagram](https://www.instagram.com/postbag.prod/) ✌️
