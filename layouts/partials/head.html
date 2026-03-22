@@ -22,8 +22,16 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
     type="text/css">
 
+<!-- Set theme before CSS loads to prevent flash of wrong theme -->
+<script>
+  (function() {
+    var theme = (window.localStorage && window.localStorage.getItem("theme")) || "dark";
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "scss/main.scss" | css.Sass $options | resources.Fingerprint }}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ range $val := $.Site.Params.customCSS }}
