@@ -10,6 +10,7 @@ I release music as [os.10](https://open.spotify.com/artist/4mEtNdDrhc0JhcgE7kUN1
 
 Recently I've also started to record and produce for some of my other friends as well. Here is a running list of credits:
 * [Not a party by n.ara](https://distrokid.com/hyperfollow/nara22/not-a-party?utm_source=ig&utm_medium=social&utm_content=link_in_bio) (produced, mixed, mastered)
+* [OCEANS EP by n.ara and os.10](https://distrokid.com/hyperfollow/naraos10/oceans) (co-produced, executive produced, mixed, mastered)
 
 ## Software Projects
 
