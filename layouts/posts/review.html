@@ -1,0 +1,81 @@
+{{ define "main" }}
+<article class="review-single">
+
+  {{/* ── Album header ──────────────────────────────────────── */}}
+  <header class="review-hero">
+    <div class="review-cover-wrap">
+      {{ if .Params.cover }}
+      <img class="review-cover" src="{{ .Params.cover }}" alt="{{ .Params.album }} by {{ .Params.artist }}">
+      {{ else }}
+      <div class="review-cover review-cover--placeholder">♪</div>
+      {{ end }}
+    </div>
+
+    <div class="review-meta">
+      {{ with .Params.genre }}
+      <p class="review-genre">{{ delimit . " · " }}</p>
+      {{ end }}
+
+      <p class="review-artist">{{ .Params.artist }}</p>
+      <h1 class="review-album-title">{{ .Params.album }}</h1>
+
+      <ul class="review-stats">
+        {{ with .Params.tracks }}
+        <li><span class="stat-label">Tracks</span><span class="stat-value">{{ . }}</span></li>
+        {{ end }}
+        {{ with .Params.length }}
+        <li><span class="stat-label">Length</span><span class="stat-value">{{ . }}</span></li>
+        {{ end }}
+        {{ with .Params.label }}
+        <li><span class="stat-label">Label</span><span class="stat-value">{{ . }}</span></li>
+        {{ end }}
+        {{ with .Params.released }}
+        <li><span class="stat-label">Released</span><span class="stat-value">{{ . }}</span></li>
+        {{ end }}
+      </ul>
+
+      {{ with .Params.credits }}
+      <div class="review-credits">
+        <p class="credits-heading">Credits</p>
+        {{ range . }}
+        <div class="credit-row">
+          <span class="credit-role">{{ .role }}</span>
+          <span class="credit-name">{{ .name }}</span>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* ── Score + review body ────────────────────────────────── */}}
+  <div class="review-body-wrap">
+    <div class="review-score-row">
+      <div class="review-score">
+        <span class="score-number">{{ printf "%.1f" .Params.score }}</span>
+        <span class="score-denom">/10</span>
+      </div>
+      <div class="score-pips" aria-hidden="true">
+        {{ $score := .Params.score }}
+        {{ range seq 10 }}
+        <span class="score-pip{{ if le . (int (math.Round $score)) }} score-pip--filled{{ end }}"></span>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ with .Params.blurb }}
+    <blockquote class="review-blurb">{{ . }}</blockquote>
+    {{ end }}
+
+    <div class="review-content">
+      {{ .Content }}
+    </div>
+
+    <footer class="review-footer">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <a href="{{ "/posts/" | relURL }}" class="back-link">← All reviews</a>
+    </footer>
+  </div>
+
+</article>
+{{ end }}
