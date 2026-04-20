@@ -52,13 +52,13 @@
   <div class="review-body-wrap">
     <div class="review-score-row">
       <div class="review-score">
-        <span class="score-number">{{ printf "%.1f" .Params.score }}</span>
+        <span class="score-number">{{ .Params.score }}</span>
         <span class="score-denom">/10</span>
       </div>
       <div class="score-pips" aria-hidden="true">
-        {{ $score := .Params.score }}
-        {{ range seq 10 }}
-        <span class="score-pip{{ if le . (int (math.Round $score)) }} score-pip--filled{{ end }}"></span>
+        {{ $filled := int .Params.score }}
+        {{ range $i := seq 10 }}
+        <span class="score-pip{{ if le $i $filled }} score-pip--filled{{ end }}"></span>
         {{ end }}
       </div>
     </div>
