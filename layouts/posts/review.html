@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="review-single">
 
-  {{/* ── Album header ──────────────────────────────────────── */}}
+  {{/* ── Album header ────────────────────────────────────────── */}}
   <header class="review-hero">
     <div class="review-cover-wrap">
       {{ if .Params.cover }}
@@ -48,7 +48,7 @@
     </div>
   </header>
 
-  {{/* ── Score + review body ────────────────────────────────── */}}
+  {{/* ── Score + review body ──────────────────────────────────── */}}
   <div class="review-body-wrap">
     <div class="review-score-row">
       <div class="review-score">
@@ -73,7 +73,7 @@
 
     <footer class="review-footer">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-      <a href="{{ "/posts/" | relURL }}" class="back-link">← All reviews</a>
+      <a href="{{ "/posts/" | relURL }}" class="back-link">← All posts</a>
     </footer>
   </div>
 
