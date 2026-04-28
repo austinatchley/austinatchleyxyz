@@ -1,8 +1,12 @@
 {{ define "body" }}
-    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+    <body class="crt-page{{ if .Site.Params.backgroundImage }} background-image{{ end }}"{{ if .Site.Params.backgroundImage }} style="background-image: url('{{ .Site.Params.backgroundImage }}');"{{ end }}>
 {{ end }}
 
 {{ define "main" }}
+
+{{/* CRT aurora canvas — fixed background, only rendered on the home page */}}
+<canvas id="crt-aurora" aria-hidden="true" role="presentation"></canvas>
+
     <main aria-role="main">
         <div>
             {{ if .Site.Params.Portrait.Path }}
