@@ -199,7 +199,13 @@ cloudFrontDistributionID = "EPBD5YIHCM3QO"
 # Pattern searching is stopped on first match.
 
 [[deployment.matchers]]
-# Cache static assets for 1 year.
+# Static JS files are served at fixed URLs (no hash), so keep cache short.
+pattern = "^js/.+\\.js$"
+cacheControl = "max-age=300, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+# Cache fingerprinted assets for 1 year.
 pattern = "^.+\\.(js|css|svg|ttf)$"
 cacheControl = "max-age=31536000, no-transform, public"
 gzip = true

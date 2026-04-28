@@ -1,3 +1,3 @@
 rm -R public/*
-hugo
-hugo deploy --force
+hugo --minify
+hugo deploy --force --maxDeletes -1 --invalidateCDN
