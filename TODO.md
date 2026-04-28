@@ -2,7 +2,7 @@
 
 1. Performance testing for JS animations. Measure page load latency, client memory utilization, and client CPU utilization in an A/B test.
 
-# DONE
+## DONE
 
 1. Add music to Projects page
 1. Finish lambda@edge post
