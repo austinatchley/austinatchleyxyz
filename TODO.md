@@ -1,5 +1,10 @@
 # TODO
 
+1. Implement particle field behind CRT Aurora
+1. Performance testing for JS animations. Measure page load latency, client memory utiliziation, and client CPU utilization in an A/B test.
+
+# DONE
+
 1. Add music to Projects page
 1. Finish lambda@edge post
 1. ~~Remove theme switcher, lock to dark mode~~ (done 2026-04-28)
