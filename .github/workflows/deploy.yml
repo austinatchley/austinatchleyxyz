@@ -15,10 +15,10 @@ jobs:
           submodules: recursive
 
       - name: Install Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.152.2'
-          extended: true
+        run: |
+          curl -sL https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_withdeploy_0.152.2_linux-amd64.tar.gz | tar -xz hugo
+          sudo mv hugo /usr/local/bin/hugo
+          hugo version
 
       - name: Build
         run: hugo --minify
