@@ -69,6 +69,11 @@
     type="application/json" title="{{ .Site.Title }}" />
 {{ end }}
 
+<!-- CRT Aurora JavaScript effects -->
+<script src="/js/crt-aurora.js" defer></script>
+<script src="/js/cursor-fx.js" defer></script>
+<script src="/js/particles.js" defer></script>
+
 <!-- Custom head tags -->
 {{- if templates.Exists "partials/extra-head.html" -}}
     {{ partial "extra-head.html" . }}
