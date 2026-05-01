@@ -1,1 +1,1 @@
-hugo server start -D
+hugo server -D
