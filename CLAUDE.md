@@ -95,11 +95,26 @@ JSON globals for the Playwright harness — no DOM scraping needed.
 0.30ms med / 0.40ms p95 on desktop GPU at 578x885. The `"pattern"` strategy
 (one repeating `CanvasPattern` fill) had the same median but a ~50ms tail
 spike on the GPU-backed desktop. Live A/B via `?scanlines=rows|pattern`.
+Current scanlineOpacity: `0.45`.
 
 **Script loading**: `layouts/partials/extra-head.html` (in the **main repo**, not the
 theme submodule) injects the `<script defer>` tags. The theme's `.gitignore` excludes
 this path — it's designed to be overridden per-site. If CI deployments lose JS, check
 that this file exists in the main repo's `layouts/partials/`.
+**Aurora + particles now load on EVERY page** (the `{{ if .IsHome }}` guard was removed).
+
+**Aurora rendering**: Capped to **30fps** (`frameCount % 2 === 0` skip frames) so
+cursor-fx gets more main-thread time. Glitch still runs at 60fps. Canvas perf on
+headless Playwright: med ~11ms, p95 ~28ms.
+
+**Aurora state persistence**: Full animation state saved to localStorage on
+`pagehide` and restored on next page load. `savedAt` wall-clock timestamp
+advances `t` by elapsed time so the animation resumes seamlessly across page
+navigations. Auto-downgraded quality level is also persisted. Key:
+`aurora_state`.
+
+**No dithering**: Both ordered Bayer and Floyd-Steinberg error diffusion have
+been tried and removed due to visual artifacts.
 
 `prism.js` remains vendored plain JS (not ported). Source layout and rationale
 are documented in `docs/ts-migration-plan.md`; the animation internals are in
