@@ -77,7 +77,21 @@ npm run watch      # rebuild on save (used by run_local.sh)
 npm run typecheck  # tsc --noEmit (strict)
 npm run test       # vitest (pure logic in src/lib/)
 npm run check      # typecheck + test + build — run before committing JS
+npm run perf       # Playwright headless A/B perf comparison (aurora scanlines)
+npm run bench      # Node --expose-gc microbenchmark (particle allocation)
 ```
+
+**FrameMeter**: Every animation has a `FrameMeter` that always records per-frame
+work duration (240-sample rolling window). Stats are exposed as machine-readable
+JSON globals for the Playwright harness — no DOM scraping needed.
+- `window.__auroraMeter` — aurora animation frame timing
+- `window.__scanlineMode` — active scanline strategy (`"rows"`|`"pattern"`)
+- Visual HUD enabled via `?perfhud` query param or `localStorage.setItem("perfhud","1")`
+
+**Scanline default**: `"rows"` — a 1px dark `fillRect` every 3px. Measured
+0.30ms med / 0.40ms p95 on desktop GPU at 578x885. The `"pattern"` strategy
+(one repeating `CanvasPattern` fill) had the same median but a ~50ms tail
+spike on the GPU-backed desktop. Live A/B via `?scanlines=rows|pattern`.
 
 `prism.js` remains vendored plain JS (not ported). Source layout and rationale
 are documented in `docs/ts-migration-plan.md`; the animation internals are in
@@ -143,7 +157,8 @@ Common commit messages indicate typical workflows:
 - **Hugo**: v0.152.2+extended+withdeploy or later (extended version required for SCSS compilation)
 - **AWS CLI**: Configured with credentials for S3/CloudFront access
 - **Git**: For submodule management
-- **Node.js**: v18+ (only for editing theme JS; compiled output is committed, so deploys don't need Node)
+- **Node.js**: v18+ (for editing theme JS; compiled output is committed, so deploys don't need Node)
+- **Playwright**: v1.40+ (for `npm run perf` in theme; `npx playwright install chromium` after `npm install`)
 
 ## Custom Shortcodes
 
