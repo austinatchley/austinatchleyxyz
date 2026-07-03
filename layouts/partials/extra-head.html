@@ -3,11 +3,7 @@
   Theme's .gitignore excludes this path — it's meant to be overridden here.
   Wired from themes/hello-friend-ng/layouts/partials/head.html via
   templates.Exists.
-
-  Loads aurora + particles on home page only; cursor-fx on every page.
 */}}
-{{ if .IsHome }}
 <script defer src="{{ "js/crt-aurora.js" | relURL }}"></script>
 <script defer src="{{ "js/particles.js" | relURL }}"></script>
-{{ end }}
 <script defer src="{{ "js/cursor-fx.js" | relURL }}"></script>
