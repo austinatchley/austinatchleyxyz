@@ -18,7 +18,7 @@ I release music as [os.10](https://open.spotify.com/artist/4mEtNdDrhc0JhcgE7kUN1
 * [curtain call by postbag ft. n.ara](https://distrokid.com/hyperfollow/postbag/curtain-call-feat-nara-muunji--os10) (single) 08/12/2025
 * [SWORDSEER by postbag](https://distrokid.com/hyperfollow/postbag/swordseer) (EP) 09/18/2025
 * [skyrat by postbag](https://distrokid.com/hyperfollow/postbag/skyrat) (single) 11/21/2025
-* [layin'low by postbag](https://distrokid.com/hyperfollow/postbag/layinlow) (single) 04/30/2026
+* [oof ahh by postbag](https://distrokid.com/hyperfollow/postbag/oof-ahh) (single) 05/27/2026
 
 Recently I've also started to record and produce for some of my other friends as well. Here is a running list of credits:
 
