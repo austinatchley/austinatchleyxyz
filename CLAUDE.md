@@ -63,6 +63,9 @@ Hugo layout precedence: layouts in root override theme layouts
 - `layouts/posts/` - Post-specific templates
 
 ### Theme JavaScript (TypeScript)
+**All npm commands must be run from inside the theme submodule — the main repo
+root has no `package.json`.** Always `cd themes/hello-friend-ng` first.
+
 The theme's hand-written JS is authored in **TypeScript** under
 `themes/hello-friend-ng/src/` and compiled with esbuild to the historical
 `.js` locations (`static/js/*.js` for the canvas animations, `assets/js/*.js`
