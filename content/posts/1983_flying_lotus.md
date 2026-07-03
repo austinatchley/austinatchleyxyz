@@ -1,7 +1,7 @@
 ---
 title: "1983 — Flying Lotus"
 date: "2026-04-19"
-draft: false
+draft: true
 layout: "review"
 tags: ["music", "electronic", "hip-hop"]
 
