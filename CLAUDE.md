@@ -62,6 +62,28 @@ Hugo layout precedence: layouts in root override theme layouts
 - `layouts/shortcodes/` - Custom shortcodes (image positioning, rawhtml)
 - `layouts/posts/` - Post-specific templates
 
+### Theme JavaScript (TypeScript)
+The theme's hand-written JS is authored in **TypeScript** under
+`themes/hello-friend-ng/src/` and compiled with esbuild to the historical
+`.js` locations (`static/js/*.js` for the canvas animations, `assets/js/*.js`
+for the Hugo Pipes bundle). **Never edit the compiled `.js` files directly** —
+they carry a `GENERATED` banner and are overwritten on build.
+
+```bash
+cd themes/hello-friend-ng
+npm install        # first time only
+npm run build      # compile TS -> committed .js
+npm run watch      # rebuild on save (used by run_local.sh)
+npm run typecheck  # tsc --noEmit (strict)
+npm run test       # vitest (pure logic in src/lib/)
+npm run check      # typecheck + test + build — run before committing JS
+```
+
+`prism.js` remains vendored plain JS (not ported). Source layout and rationale
+are documented in `docs/ts-migration-plan.md`; the animation internals are in
+`docs/crt-aurora-animation.md`. `./scripts/run_local.sh` starts the TS watcher
+automatically when `node_modules` is present (`--no-ts` to skip).
+
 ### AWS Infrastructure
 - **S3 Bucket**: `staticsitebucket-austinatchleyaws` (us-west-2)
 - **CloudFront Distribution**: `EPBD5YIHCM3QO`
@@ -121,6 +143,7 @@ Common commit messages indicate typical workflows:
 - **Hugo**: v0.152.2+extended+withdeploy or later (extended version required for SCSS compilation)
 - **AWS CLI**: Configured with credentials for S3/CloudFront access
 - **Git**: For submodule management
+- **Node.js**: v18+ (only for editing theme JS; compiled output is committed, so deploys don't need Node)
 
 ## Custom Shortcodes
 

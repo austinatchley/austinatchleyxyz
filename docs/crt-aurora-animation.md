@@ -14,11 +14,28 @@ Aurora and particles load only on the home page; cursor FX loads on every page.
 
 ## File Structure
 
+The animation JS is authored in **TypeScript** under
+`themes/hello-friend-ng/src/` and compiled to the `.js` paths below. **Do not
+edit the compiled `.js` files directly** — edit the TS source and rebuild
+(`npm run build` in the theme). See `docs/ts-migration-plan.md` for the
+toolchain.
+
+| TS source | Compiled output | Purpose |
+| --------- | --------------- | ------- |
+| `src/entries/crt-aurora.ts` | `static/js/crt-aurora.js` | Aurora bands + CRT scanlines (home only) |
+| `src/entries/particles.ts` | `static/js/particles.js` | Magnetic particle field (home only) |
+| `src/entries/cursor-fx.ts` | `static/js/cursor-fx.js` | Cursor halo div + rings + click ripples (all pages) |
+| `src/entries/main.ts` | `assets/js/main.js` | Dark-theme attribute (Hugo Pipes bundle) |
+| `src/entries/menu.ts` | `assets/js/menu.js` | Mobile menu toggle (Hugo Pipes bundle) |
+
+Pure, unit-tested logic lives in `src/lib/` (`math`, `spectrum`,
+`particles-core`, `rings`) and is imported by the entry files. Canvas/DOM
+wiring stays in the entries so the `lib/` modules remain testable under jsdom.
+
+Supporting files (unchanged by the port):
+
 | File | Purpose |
 | ---- | ------- |
-| `themes/hello-friend-ng/static/js/crt-aurora.js` | Aurora bands + CRT scanlines (home only) |
-| `themes/hello-friend-ng/static/js/particles.js` | Magnetic particle field (home only) |
-| `themes/hello-friend-ng/static/js/cursor-fx.js` | Cursor halo div + rings + click ripples (all pages) |
 | `themes/hello-friend-ng/assets/scss/_crt-aurora.scss` | CSS for all three canvases, body transparency, halo |
 | `themes/hello-friend-ng/layouts/partials/extra-head.html` | Script loading via `<script defer>` |
 | `layouts/index.html` (main site) | `#crt-aurora` canvas element + `crt-page` body class |
