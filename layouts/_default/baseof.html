@@ -5,21 +5,9 @@
     </head>
 
     {{ block "body" . }}
-        <body class="crt-page">
+        <body>
     {{ end }}
-    
-        <!-- CRT Aurora background canvas -->
-        <canvas id="crt-aurora"></canvas>
-        
-        <!-- Particle field canvas -->
-        <canvas id="particle-field"></canvas>
-        
-        <!-- Cursor halo element -->
-        <div id="cursor-halo"></div>
-        
-        <!-- Cursor effects canvas -->
-        <canvas id="cursor-fx"></canvas>
-    
+
         <div class="container">
             {{ partial "header.html" . }}
 
