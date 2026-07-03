@@ -96,6 +96,11 @@ JSON globals for the Playwright harness — no DOM scraping needed.
 (one repeating `CanvasPattern` fill) had the same median but a ~50ms tail
 spike on the GPU-backed desktop. Live A/B via `?scanlines=rows|pattern`.
 
+**Script loading**: `layouts/partials/extra-head.html` (in the **main repo**, not the
+theme submodule) injects the `<script defer>` tags. The theme's `.gitignore` excludes
+this path — it's designed to be overridden per-site. If CI deployments lose JS, check
+that this file exists in the main repo's `layouts/partials/`.
+
 `prism.js` remains vendored plain JS (not ported). Source layout and rationale
 are documented in `docs/ts-migration-plan.md`; the animation internals are in
 `docs/crt-aurora-animation.md`. `./scripts/run_local.sh` starts the TS watcher
