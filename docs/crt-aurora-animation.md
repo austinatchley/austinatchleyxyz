@@ -32,6 +32,22 @@ Pure, unit-tested logic lives in `src/lib/` (`math`, `spectrum`,
 `particles-core`, `rings`) and is imported by the entry files. Canvas/DOM
 wiring stays in the entries so the `lib/` modules remain testable under jsdom.
 
+### Performance notes
+
+The `src/lib/` split also enables allocation-free hot loops. `drift`, `repel`,
+and `particleStyle` accept an optional out-object and return it, so the render
+loop reuses one scratch object per type instead of allocating three objects per
+particle per frame (~28,800 allocations/sec avoided at 60fps; ~40% faster in the
+isolated JS loop per `themes/hello-friend-ng/bench.mjs`).
+
+Scanlines are drawn with a cached 1×3 repeating `CanvasPattern` — one fill per
+frame instead of up to 720 `fillRect` calls at 4K.
+
+Aurora per-column gradients are **not** cached: their colours animate every
+frame and `CanvasGradient` stops are immutable after creation. The colour-stop
+string construction is deduplicated via `auroraColumn` in `src/lib/spectrum.ts`
+(one `hsla(...)` prefix per column instead of four).
+
 Supporting files (unchanged by the port):
 
 | File | Purpose |
@@ -123,5 +139,5 @@ Each frame:
 
 - CSS linter normalizes sub-pixel blur to integers. Settled at `filter: blur(2px); opacity: 0.5` on `#crt-aurora`.
 - Linter changed `mix-blend-mode: screen` → `hard-light` on `#cursor-halo`. Center alpha is `0.06`; nudge to `0.04` if too bright.
-- `createRadialGradient` per particle per frame is moderately expensive. 160 particles at 60fps is fine on modern hardware but worth watching in a perf audit.
-- The vertical edge fade uses 14 `createLinearGradient` calls per band per frame (4 bands = 56 gradients/frame). If perf is tight, reduce `segments` or cache gradients by column index.
+- `createRadialGradient` per particle per frame is moderately expensive. 160 particles at 60fps is fine on modern hardware but worth watching in a perf audit. (The particle math itself is now allocation-free — see Performance notes above.)
+- The vertical edge fade uses 14 `createLinearGradient` calls per band per frame (4 bands = 56 gradients/frame). These **cannot** be cached — the colours animate per frame and `CanvasGradient` stops are immutable — so if perf is tight the only lever is reducing `segments`. The colour-stop string building is already deduplicated (`auroraColumn`).
