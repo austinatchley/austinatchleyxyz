@@ -4,9 +4,9 @@
         {{ partial "head.html" . }}
     </head>
 
-    {{ block "body" . }}
-        <body>
-    {{ end }}
+    <body class="crt-page{{ if .Site.Params.backgroundImage }} background-image{{ end }}"{{ if .Site.Params.backgroundImage }} style="background-image: url('{{ .Site.Params.backgroundImage }}');"{{ end }}>
+
+        <canvas id="crt-aurora" aria-hidden="true" role="presentation"></canvas>
 
         <div class="container">
             {{ partial "header.html" . }}
