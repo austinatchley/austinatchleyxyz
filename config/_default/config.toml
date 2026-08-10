@@ -114,7 +114,6 @@ copyright = false
 author = true
 
 topText = []
-bottomText = ["Built with <a href=\"http://gohugo.io\">Hugo</a>"]
 
 # Colors for favicons
 #
