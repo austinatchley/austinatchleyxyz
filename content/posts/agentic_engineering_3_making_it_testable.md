@@ -6,7 +6,7 @@ series = "Agentic Engineering in Practice"
 tags = ["agentic", "hugo", "canvas", "performance", "typescript"]
 +++
 
-*This is Part 3 of [Agentic Engineering in Practice]({{< relref "agentic_engineering_1_setting_the_table" >}}). [Part 2]({{< relref "agentic_engineering_2_measure_before_you_move" >}}) covered the instrumentation that tells the agent where to spend its effort.*
+*This is Part 3 of [Agentic Engineering in Practice](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/). [Part 2](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/) covered the instrumentation that tells the agent where to spend its effort.*
 
 Perf measurement answers *where* to change things. Tests answer a harder, sneakier question: after the change, is anything broken? When your collaborator regenerates whole files from scratch on every iteration, you need a safety net that catches behavior drift automatically. That net is the reason this project could afford to keep moving fast.
 
@@ -19,7 +19,7 @@ The [TS migration plan](https://github.com/austinatchley/hugo-theme-hello-friend
 - `src/lib/`: **pure, testable logic**. Spectrum math, particle physics, ring envelopes. No DOM, no canvas.
 - `src/entries/`: **thin wiring**. Gets the canvas, starts the rAF loop, calls into `lib/`.
 
-That split bought 49 vitest tests covering hue interpolation, drift/repulsion, and ring lifecycles. It also bought freedom: performance work landed *with tests proving byte-equivalent behavior*, so refactors scared nobody. In [Part 2]({{< relref "agentic_engineering_2_measure_before_you_move" >}}), the allocation win on the particle loop carried a test that proved the output didn't change. That's the deal: measure, change, prove it's still the same animation.
+That split bought 49 vitest tests covering hue interpolation, drift/repulsion, and ring lifecycles. It also bought freedom: performance work landed *with tests proving byte-equivalent behavior*, so refactors scared nobody. In [Part 2](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/), the allocation win on the particle loop carried a test that proved the output didn't change. That's the deal: measure, change, prove it's still the same animation.
 
 The same separation made the Adobe-style "improve the rendering" temptation safe. When the agent proposed blending tweaks or envelope changes, we could run the tests and see a hard pass/fail on whether the pure math still held, even when the visual result demanded a human eye.
 
@@ -33,8 +33,8 @@ Persistence sits squarely on the other side of the lib/entries line from the tes
 
 ## The quality gate that makes it all stick
 
-The tests live in the theme repo, but the gate that keeps them green lives in CI. I covered the [GitHub Actions workflows in Part 1]({{< relref "agentic_engineering_1_setting_the_table" >}}): typecheck, lint, prettier, tests, and build run on every push, and a red push refuses to ship. That means the agent can't merge a change that silently breaks the animation math, no matter how confident the commit message sounds.
+The tests live in the theme repo, but the gate that keeps them green lives in CI. I covered the [GitHub Actions workflows in Part 1](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/): typecheck, lint, prettier, tests, and build run on every push, and a red push refuses to ship. That means the agent can't merge a change that silently breaks the animation math, no matter how confident the commit message sounds.
 
 Between the FrameMeter instrumentation and the 49 tests, the loop is closed: the number that measures a change and the test that protects it are both checked into the repo next to the code that produced them. That's what makes iterative agent work durable instead of a flurry of one-off experiments.
 
-Next up: [Part 4]({{< relref "agentic_engineering_4_working_with_an_agent" >}}), the collaboration part. What it's actually like to work this closely with an agent, including the things it fundamentally can't do.
+Next up: [Part 4](/posts/2026/08/agentic-engineering-in-practice-part-4-working-with-an-agent/), the collaboration part. What it's actually like to work this closely with an agent, including the things it fundamentally can't do.

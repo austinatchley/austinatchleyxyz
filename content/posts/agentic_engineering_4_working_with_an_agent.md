@@ -6,7 +6,7 @@ series = "Agentic Engineering in Practice"
 tags = ["agentic", "hugo", "canvas", "performance"]
 +++
 
-*This is Part 4 of [Agentic Engineering in Practice]({{< relref "agentic_engineering_1_setting_the_table" >}}). [Part 1]({{< relref "agentic_engineering_1_setting_the_table" >}}) covered the setup and deploy loop, [Part 2]({{< relref "agentic_engineering_2_measure_before_you_move" >}}) the instrumentation and measurement, and [Part 3]({{< relref "agentic_engineering_3_making_it_testable" >}}) the testability. This one is the honest part: what it's actually like to work this closely with an AI agent.*
+*This is Part 4 of [Agentic Engineering in Practice](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/). [Part 1](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/) covered the setup and deploy loop, [Part 2](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/) the instrumentation and measurement, and [Part 3](/posts/2026/08/agentic-engineering-in-practice-part-3-making-it-testable/) the testability. This one is the honest part: what it's actually like to work this closely with an AI agent.*
 
 The honest part: the agent is not a code generator you point at a problem. It's a co-engineer with three hard deficiencies, no eyes, no sustained taste, and no memory across sessions.
 
