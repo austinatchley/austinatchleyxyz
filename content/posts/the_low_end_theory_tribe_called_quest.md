@@ -2,7 +2,7 @@
 title: "Music Review: The Low End Theory — A Tribe Called Quest"
 date: "2026-08-11"
 layout: "review"
-tags: ["music", "hip-hop", "jazz-rap"]
+tags: ["music", "music-reviews", "hip-hop", "jazz-rap"]
 
 artist: "A Tribe Called Quest"
 album: "The Low End Theory"
