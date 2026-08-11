@@ -1,0 +1,53 @@
+{{ $username := "austinatchley" }}
+{{ $perPage := .Get "per_page" | default 8 }}
+{{ $exclude := slice "austinatchleyxyz" }}
+{{ $url := printf "https://api.github.com/users/%s/repos?sort=updated&per_page=%d" $username (int $perPage) }}
+{{ $data := resources.GetRemote $url | transform.Unmarshal }}
+{{ $repos := $data }}
+<style>
+    .gh-repos {
+        list-style: none;
+        margin: 1rem 0 2rem;
+        padding: 0;
+    }
+    .gh-repo {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        padding: 0.7rem 0;
+        border-bottom: 1px solid var(--border-color, rgba(255,255,255,0.08));
+    }
+    .gh-repo:last-child { border-bottom: none; }
+    .gh-repo__name {
+        font-family: var(--font-monospace, monospace);
+        font-weight: 500;
+    }
+    .gh-repo__desc {
+        opacity: 0.7;
+        font-size: 0.9rem;
+    }
+    .gh-repo__meta {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.75rem;
+        opacity: 0.55;
+        font-family: var(--font-monospace, monospace);
+    }
+</style>
+<ul class="gh-repos">
+    {{ range $repos }}
+        {{ if not (in $exclude .name) }}
+        <li class="gh-repo">
+            <a class="gh-repo__name" href="{{ .html_url }}" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ with .description }}
+            <span class="gh-repo__desc">{{ . }}</span>
+            {{ end }}
+            <span class="gh-repo__meta">
+                {{ with .language }}<span class="gh-repo__lang">{{ . }}</span>{{ end }}
+                {{ with .stargazers_count }}{{ if gt . 0 }}<span class="gh-repo__stars">★ {{ . }}</span>{{ end }}{{ end }}
+                <span class="gh-repo__updated">{{ .updated_at | time.Format "Jan 2006" }}</span>
+            </span>
+        </li>
+        {{ end }}
+    {{ end }}
+</ul>

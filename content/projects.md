@@ -24,8 +24,10 @@ Recently I've also started to record and produce for some of my other friends as
 
 * [Not a party by n.ara](https://distrokid.com/hyperfollow/nara22/not-a-party?utm_source=ig&utm_medium=social&utm_content=link_in_bio) (produced, mixed, mastered)
 * [OCEANS EP by n.ara and os.10](https://distrokid.com/hyperfollow/naraos10/oceans) (co-produced, executive produced, mixed, mastered)
-* [Echoes by n.ara](https://music.youtube.com/playlist?list=OLAK5uy_kQPoBLZc4PcJtbgZYGOJfmCThId_u2FAs) (produced by os.10) 08/11/2026
+* [Echoes by n.ara](https://music.youtube.com/playlist?list=OLAK5uy_kQPoBLZc4PcJtbgZYGOJfmCThId_u2FAs) (co-produced, mixed, mastered)
 
 ## Software Projects
 
-See [my GitHub](https://github.com/austinatchley?tab=repositories) for any software-related projects I've been working on.
+A live feed of my most recently updated repositories on [GitHub](https://github.com/austinatchley), pulled at build time:
+
+{{< gh-repos >}}
