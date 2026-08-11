@@ -91,10 +91,9 @@ JSON globals for the Playwright harness — no DOM scraping needed.
 - `window.__scanlineMode` — active scanline strategy (`"rows"`|`"pattern"`)
 - Visual HUD enabled via `?perfhud` query param or `localStorage.setItem("perfhud","1")`
 
-**Scanline default**: `"rows"` — a 1px dark `fillRect` every 3px. Measured
-0.30ms med / 0.40ms p95 on desktop GPU at 578x885. The `"pattern"` strategy
-(one repeating `CanvasPattern` fill) had the same median but a ~50ms tail
-spike on the GPU-backed desktop. Live A/B via `?scanlines=rows|pattern`.
+**Scanline default**: `"pattern"` — scanlines are painted once (they're static)
+using a cached repeating `CanvasPattern` fill, which measures faster on desktop
+GPUs than the per-row `"rows"` loop. Live A/B via `?scanlines=rows|pattern`.
 Current scanlineOpacity: `0.45`.
 
 **Script loading**: `layouts/partials/extra-head.html` (in the **main repo**, not the
