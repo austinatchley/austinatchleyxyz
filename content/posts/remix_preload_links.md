@@ -1,6 +1,7 @@
 +++
 title = "Easily Prefetch Links in Remix"
 date = "2024-07-20"
+tags = ["remix"]
 +++
 
 ## Introduction

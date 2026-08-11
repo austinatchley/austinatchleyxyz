@@ -15,7 +15,7 @@ draft = true
 +++
 ```
 
-   - Add `tags = ["...", "..."]` and `toc = true` if the post is long or would benefit from a table of contents.
+   - Add `tags = ["...", "..."]` (required — at least one) using only the canonical vocabulary in the "Tag vocabulary" section of `CLAUDE.md`. Never invent new tags; if none fit pick the closest and mention the gap to the user. Add `toc = true` if the post is long or would benefit from a table of contents.
    - Write the body in the author's voice: personal, conversational first-person where the subject is experience/opinion, or structured prose (sections, quotes, links) for essays and how-tos.
    - Link out generously to sources, references, and related posts using inline markdown links. The site already has full-blown posts on related topics (Lambda@Edge, robots.txt, remix, centering images) — link to those where relevant instead of re-explaining.
    - If images are needed, reference files in `/static/images/` via `{{< image src="/images/<filename>.jpg" alt="..." position="center" >}}` or `![alt text](/images/<filename>.jpg "")`.

@@ -1,6 +1,7 @@
 +++
 title = "Echoes"
 date = "2026-08-11"
+tags = ["music"]
 +++
 
 ![Echoes](/images/echoes_album_cover.jpg "")

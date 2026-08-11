@@ -1,6 +1,7 @@
 +++
 title = "Using Remix as a New Web Developer"
 date = "2023-04-26"
+tags = ["remix"]
 +++
 
 Recently, I started using the [Remix framework](https://remix.run/) for my WIP project [message-in-a-bottle](https://message-in-a-bottle.fly.dev/). This has been an interesting experience, and I think this has been so especially because I wasn't previously familiar with any current Javascript web development stacks (e.g. React, Angular, the recent proliferation of using Next.js, etc.). 

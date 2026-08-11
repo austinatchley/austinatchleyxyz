@@ -1,6 +1,7 @@
 +++
 title = "ARBORETUM"
 date = "2024-10-25"
+tags = ["music"]
 +++
 
 ![ARBORETUM](/images/arboretum_album_cover.jpg "")

@@ -1,6 +1,7 @@
 +++
 title = "Centering Images by Default in Hugo"
 date = "2023-03-01"
+tags = ["hugo"]
 +++
 
 ## Introduction

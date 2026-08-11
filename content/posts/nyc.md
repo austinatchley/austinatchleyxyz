@@ -1,6 +1,7 @@
 +++
 title = "🗽 I Moved to New York City"
 date = "2023-10-11"
+tags = ["personal", "roam"]
 +++
 
 After living in Seattle for the past 3 years, I moved to New York in August. For my first apartment, I found the Yorkville neighborhood on the Upper East Side of Manhattan to be quite agreeable, and I'm currently working on my [message-in-a-bottle](https://message-in-a-bottle.fly.dev/) fullstack web app project while getting settled.
