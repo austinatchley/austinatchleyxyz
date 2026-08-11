@@ -1,6 +1,7 @@
 +++
 title = "McLuhan and Media Studies: An Underlooked Sub-discipline?"
 date = "2024-08-20"
+tags = ["philosophy"]
 +++
 
 I was first exposed to the ideas of the Canadian philosopher Marshall McLuhan in a talk by Chris Cox (CPO of Meta) at the Menlo Park campus. McLuhan's work centers around media studies, which is a sub-discipline of philosophy that isn't often taught in introductory or intermediate philosophy courses.

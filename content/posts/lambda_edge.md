@@ -2,6 +2,7 @@
 title = "Using Lambda@Edge Functions to Remove 'index.html' from URLs on Your Static Website Hosted on S3"
 date = "2024-07-28"
 draft = true
+tags = ["aws", "hugo"]
 +++
 
 ## Introduction

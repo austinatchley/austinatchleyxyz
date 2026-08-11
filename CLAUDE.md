@@ -202,7 +202,35 @@ Posts use front matter with:
 - `title` - Post title
 - `date` - Publication date (format: "2025-02-09")
 - `draft` - Set to false or remove before publishing
-- `tags` - Optional taxonomy tags
+- `tags` - Taxonomy tags (required — see vocabulary below)
 - `toc` - Optional table of contents (default: false)
 
 Images stored in `/static/images/` and referenced as `/images/filename.jpg` in markdown.
+
+### Tag vocabulary
+
+Every post must carry at least one tag. Use the canonical set below (lowercase,
+hyphenated). Do not invent new tags; if none fit, pick the closest and mention
+the gap to the user.
+
+| Tag | Meaning |
+| --- | --- |
+| `agentic` | Agent-driven development, AI pair-programming workflow |
+| `ai` | LLMs, machine learning, agentic tooling |
+| `aws` | AWS/Lambda@Edge, deploys infrastructure |
+| `canvas` | Canvas animations / graphics |
+| `hugo` | Hugo static site / theme / site engineering |
+| `java` | Java / Spring |
+| `music` | Any music content (releases, reviews, posts) |
+| `music-reviews` | Music review posts (layout: review) |
+| `performance` | Performance engineering, animation perf |
+| `personal` | Life / personal essays / updates |
+| `philosophy` | Essays on ideas, ethics, media theory |
+| `remix` | Remix framework |
+| `roam` | Travel, places, road trips |
+| `software` | General software engineering |
+| `technical-writing` | Writing/process posts about the blog itself |
+| `typescript` | TypeScript / toolchain posts |
+
+Genre tags for reviews stay per-review (`hip-hop`, `jazz-rap`, `electronic`, ...)
+on top of the `music` tags above.

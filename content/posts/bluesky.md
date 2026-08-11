@@ -1,6 +1,7 @@
 +++
 title = "Bluesky"
 date = "2025-02-09"
+tags = ["software"]
 +++
 
 I never used Twitter (I guess that's the Zoomer side of the Zillenial in me), but since signing up for Bluesky, I've been pleasantly surprised with the quality of content. Their [starter pack feature](https://bsky.social/about/blog/06-26-2024-starter-packs) makes it easier than ever to get high quality posts delivered straight to your news feed.

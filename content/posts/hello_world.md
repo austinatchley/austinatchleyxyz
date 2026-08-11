@@ -1,6 +1,7 @@
 +++
 title = "Hello World!"
 date = "2022-10-19"
+tags = ["personal"]
 +++
 
 ## Hello World!

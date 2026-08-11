@@ -1,6 +1,7 @@
 +++
 title = "✈️ RTW: My Big Travel Plans for 2023"
 date = "2023-06-21"
+tags = ["roam"]
 +++
 
 In 2019, I studied abroad for a semester at SciencesPo in Reims, France. During that year, I developed a deep appreciation for travel, and the ease of it all was a revelation to college me, who had never left the country before embarking on my 6 month adventure. 

@@ -1,6 +1,7 @@
 +++
 title = "Spring AI: A Pleasant Tool for Building LLM-Based Web Services"
 date = "2024-05-15"
+tags = ["java", "ai"]
 +++
 
 In a short gap between two jobs, I started working on a simple idea for a creative, multi-modal (text-to-text and text-to-image) AI-based web application. I had been tracking [the open-source development](https://github.com/spring-projects/spring-ai) of [the Spring AI project](https://spring.io/projects/spring-ai), and thought it would be the perfect opportunity to evaluate the project for my idea.

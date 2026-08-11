@@ -1,6 +1,7 @@
 +++
 title = "Thoughts on Car Travel in America"
 date = "2023-07-18"
+tags = ["roam"]
 +++
 
 Although I tend to prefer alternative methods of transport these days, there is something to be said for the joys of traversing the open roads of America in a personal automobile. Last week, I drove solo from Seattle, WA to Austin, TX over the course of four days. With most of my belongings in the trunk of my Challenger, I made the trip in anticipation of my move to New York City in September. As someone with increasingly mixed feelings about cars and their impact on the Earth, I spent much of the trip thinking about the relationship between me, the roaring machine under my grip, and the landscape sailing by.
