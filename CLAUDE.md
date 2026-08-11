@@ -94,7 +94,7 @@ JSON globals for the Playwright harness — no DOM scraping needed.
 **Scanline default**: `"pattern"` — scanlines are painted once (they're static)
 using a cached repeating `CanvasPattern` fill, which measures faster on desktop
 GPUs than the per-row `"rows"` loop. Live A/B via `?scanlines=rows|pattern`.
-Current scanlineOpacity: `0.45`.
+Current scanlineOpacity: `0.3`.
 
 **Script loading**: `layouts/partials/extra-head.html` (in the **main repo**, not the
 theme submodule) injects the `<script defer>` tags. The theme's `.gitignore` excludes
