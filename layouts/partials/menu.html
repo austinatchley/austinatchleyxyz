@@ -12,7 +12,7 @@
                 <div class="dropdown-content">
                     {{ if .Site.IsMultiLingual }}
                         {{ range $.Translations }}
-                            <a title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                            <a title="{{ .Language }}" href="{{ .RelPermalink }}">{{ .Language }}</a>
                         {{ end }}
                     {{ end }}
                 </div>
