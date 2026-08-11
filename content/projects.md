@@ -28,4 +28,4 @@ Recently I've also started to record and produce for some of my other friends as
 
 ## Software Projects
 
-See [my GitHub](https://github.com/austinatchley) for any software-related projects I've been working on.
+See [my GitHub](https://github.com/austinatchley?tab=repositories) for any software-related projects I've been working on.
