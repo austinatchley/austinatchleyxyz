@@ -1,5 +1,5 @@
 ---
-description: Draft a music review post using the review layout (modeled on the 1983 Flying Lotus review).
+description: Draft a music review post using the review layout (modeled on the Low End Theory review).
 agent: build
 ---
 
