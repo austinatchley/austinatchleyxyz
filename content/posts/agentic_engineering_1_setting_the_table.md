@@ -9,10 +9,10 @@ If you visited my website, you probably saw the Aurora effect behind it: glowing
 
 What you can't see from the outside is the process. I built the new UX over a few weeks of pair-programming with an AI coding agent. This is a series about that workflow. It's about how a static site became a small living system, and what it meant to co-build it with an agent that can generate code faster than I can review it.
 
-- [Part 1: Setting the Table]({{< relref "agentic_engineering_1_setting_the_table" >}}) — the architecture, the deploy pipeline, and the tooling that made it all possible. You are here.
-- [Part 2: Measure Before You Move]({{< relref "agentic_engineering_2_measure_before_you_move" >}}) — instrumentation, microbenchmarks, and A/B testing against a living page.
-- [Part 3: Making It Testable]({{< relref "agentic_engineering_3_making_it_testable" >}}) — the TypeScript migration and the pure-logic split that made refactors safe.
-- [Part 4: Working With an Agent]({{< relref "agentic_engineering_4_working_with_an_agent" >}}) — what it's actually like to co-engineer with one.
+- [Part 1: Setting the Table](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/) — the architecture, the deploy pipeline, and the tooling that made it all possible. You are here.
+- [Part 2: Measure Before You Move](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/) — instrumentation, microbenchmarks, and A/B testing against a living page.
+- [Part 3: Making It Testable](/posts/2026/08/agentic-engineering-in-practice-part-3-making-it-testable/) — the TypeScript migration and the pure-logic split that made refactors safe.
+- [Part 4: Working With an Agent](/posts/2026/08/agentic-engineering-in-practice-part-4-working-with-an-agent/) — what it's actually like to co-engineer with one.
 
 ## Architecture: a theme as a forkable engine
 
@@ -58,4 +58,4 @@ To put that per-token number in perspective, OpenRouter currently lists Anthropi
 
 That gap matters more for agentic work than for anything else, because agents are token-hungry by nature. Every iteration swallows the conversation history, tool calls, repo reads, and file rewrites, often with a large context window that gets re-read across turns. At Opus prices that kind of loop is an operating cost you think about. At DeepSeek prices it's noise, which changes how you work: I tried experiments constantly and let real failures happen, because the per-attempt price made every try feel free.
 
-Next up: [Part 2: Measure Before You Move]({{< relref "agentic_engineering_2_measure_before_you_move" >}}), about the instrumentation that tells the agent where to spend its effort.
+Next up: [Part 2: Measure Before You Move](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/), about the instrumentation that tells the agent where to spend its effort.
