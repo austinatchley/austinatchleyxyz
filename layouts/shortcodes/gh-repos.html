@@ -1,6 +1,5 @@
 {{ $username := "austinatchley" }}
 {{ $perPage := .Get "per_page" | default 8 }}
-{{ $exclude := slice "austinatchleyxyz" }}
 {{ $url := printf "https://api.github.com/users/%s/repos?sort=updated&per_page=%d" $username (int $perPage) }}
 {{ $data := resources.GetRemote $url | transform.Unmarshal }}
 {{ $repos := $data }}
@@ -36,7 +35,6 @@
 </style>
 <ul class="gh-repos">
     {{ range $repos }}
-        {{ if not (in $exclude .name) }}
         <li class="gh-repo">
             <a class="gh-repo__name" href="{{ .html_url }}" target="_blank" rel="noopener">{{ .name }}</a>
             {{ with .description }}
@@ -48,6 +46,5 @@
                 <span class="gh-repo__updated">{{ .updated_at | time.Format "Jan 2006" }}</span>
             </span>
         </li>
-        {{ end }}
     {{ end }}
 </ul>
