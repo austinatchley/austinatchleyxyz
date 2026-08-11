@@ -1,5 +1,5 @@
 ---
-title: "The Low End Theory — A Tribe Called Quest"
+title: "Music Review: The Low End Theory — A Tribe Called Quest"
 date: "2026-08-11"
 layout: "review"
 tags: ["music", "hip-hop", "jazz-rap"]
