@@ -28,6 +28,6 @@ Recently I've also started to record and produce for some of my other friends as
 
 ## Software Projects
 
-A live feed of my most recently updated repositories on [GitHub](https://github.com/austinatchley), pulled at build time:
+A live feed of my most recently updated repositories on [GitHub](https://github.com/austinatchley):
 
 {{< gh-repos >}}
