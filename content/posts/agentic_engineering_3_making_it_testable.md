@@ -1,7 +1,6 @@
 +++
 title = "Agentic Engineering in Practice, Part 3: Making It Testable"
 date = "2026-08-11"
-draft = true
 series = "Agentic Engineering in Practice"
 tags = ["agentic", "hugo", "canvas", "performance", "typescript"]
 +++
@@ -19,11 +18,11 @@ The [TS migration plan](https://github.com/austinatchley/hugo-theme-hello-friend
 - `src/lib/`: **pure, testable logic**. Spectrum math, particle physics, ring envelopes. No DOM, no canvas.
 - `src/entries/`: **thin wiring**. Gets the canvas, starts the rAF loop, calls into `lib/`.
 
-That split bought 49 vitest tests covering hue interpolation, drift/repulsion, and ring lifecycles. It also bought freedom: performance work landed *with tests proving byte-equivalent behavior*, so refactors scared nobody. In [Part 2](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/), the allocation win on the particle loop carried a test that proved the output didn't change. That's the deal: measure, change, prove it's still the same animation.
+That split bought 49 vitest tests covering hue interpolation, drift/repulsion, and ring lifecycles. It also bought freedom: performance work landed *with tests proving byte-equivalent behavior*, so refactors were straightforward and provable. In [Part 2](/posts/2026/08/agentic-engineering-in-practice-part-2-measure-before-you-move/), the allocation win on the particle loop carried a test that proved the output didn't change. That's the deal: measure, change, prove it's still the same animation.
 
-The same separation made the Adobe-style "improve the rendering" temptation safe. When the agent proposed blending tweaks or envelope changes, we could run the tests and see a hard pass/fail on whether the pure math still held, even when the visual result demanded a human eye.
+The same separation made the "improve the rendering" temptation safe. When the agent proposed blending tweaks or envelope changes, we could run the tests and see a hard pass/fail on whether the pure math still held, even when the visual result demanded a human eye.
 
-## The seamlessness nobody asked for
+## Seamless animation between pages
 
 A blog has many pages. Vaulting from one post to another means a fresh page load, which means a fresh animation, unless your frame clock knows better.
 
@@ -31,7 +30,7 @@ The aurora persists its state to `localStorage` on `pagehide` and restores it on
 
 Persistence sits squarely on the other side of the lib/entries line from the testable logic. The serialization, the wall-clock math, the resume-envelope calculations, those belong in `src/lib/`. The `localStorage` reads and writes stay in the entry so they're exercised against a real browser instead of a stubbed one. Same pattern, applied to a different concern: keep the reasoning testable, keep the plumbing thin.
 
-## The quality gate that makes it all stick
+## The final quality gate
 
 The tests live in the theme repo, but the gate that keeps them green lives in CI. I covered the [GitHub Actions workflows in Part 1](/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/): typecheck, lint, prettier, tests, and build run on every push, and a red push refuses to ship. That means the agent can't merge a change that silently breaks the animation math, no matter how confident the commit message sounds.
 
