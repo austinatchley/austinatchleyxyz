@@ -12,6 +12,19 @@
     </div>
 
     <div class="review-meta">
+      <div class="review-score-row">
+        <div class="review-score">
+          <span class="score-number">{{ .Params.score }}</span>
+          <span class="score-denom">/10</span>
+        </div>
+        <div class="score-pips" aria-hidden="true">
+          {{ $filled := int .Params.score }}
+          {{ range $i := seq 10 }}
+          <span class="score-pip{{ if le $i $filled }} score-pip--filled{{ end }}"></span>
+          {{ end }}
+        </div>
+      </div>
+
       {{ with .Params.genre }}
       <p class="review-genre">{{ delimit . " · " }}</p>
       {{ end }}
@@ -33,36 +46,11 @@
         <li><span class="stat-label">Released</span><span class="stat-value">{{ . }}</span></li>
         {{ end }}
       </ul>
-
-      {{ with .Params.credits }}
-      <div class="review-credits">
-        <p class="credits-heading">Credits</p>
-        {{ range . }}
-        <div class="credit-row">
-          <span class="credit-role">{{ .role }}</span>
-          <span class="credit-name">{{ .name }}</span>
-        </div>
-        {{ end }}
-      </div>
-      {{ end }}
     </div>
   </header>
 
-  {{/* ── Score + review body ──────────────────────────────────── */}}
+  {{/* ── Blurb + review body ─────────────────────────────────── */}}
   <div class="review-body-wrap">
-    <div class="review-score-row">
-      <div class="review-score">
-        <span class="score-number">{{ .Params.score }}</span>
-        <span class="score-denom">/10</span>
-      </div>
-      <div class="score-pips" aria-hidden="true">
-        {{ $filled := int .Params.score }}
-        {{ range $i := seq 10 }}
-        <span class="score-pip{{ if le $i $filled }} score-pip--filled{{ end }}"></span>
-        {{ end }}
-      </div>
-    </div>
-
     {{ with .Params.blurb }}
     <blockquote class="review-blurb">{{ . }}</blockquote>
     {{ end }}
@@ -70,6 +58,18 @@
     <div class="review-content">
       {{ .Content }}
     </div>
+
+    {{ with .Params.credits }}
+    <div class="review-credits">
+      <p class="credits-heading">Credits</p>
+      {{ range . }}
+      <div class="credit-row">
+        <span class="credit-role">{{ .role }}</span>
+        <span class="credit-name">{{ .name }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
 
     <footer class="review-footer">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
