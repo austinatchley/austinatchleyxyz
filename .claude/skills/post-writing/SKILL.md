@@ -75,7 +75,10 @@ The layout renders a lot for you. The body is prose only.
 6. Close that names the score, then a one-line teaser for the next review.
 
 The teaser matters: each review ends by naming the next album, which makes the
-series chain together. Low End Theory closes with "Next in the series is
+series chain together. Candidates for the next album live in
+`docs/review-queue.md` (unpublished). Offer them when asking who gets the
+teaser, add albums there whenever the user mentions one they want to review,
+and move an album to "Reviewed" with its score once its review is written. Low End Theory closes with "Next in the series is
 another formative favorite, Midnight Marauders...."
 
 ## Review layout contract
