@@ -27,8 +27,9 @@ This is the main way posts get written here. The user talks, you structure.
 1. **Read the two or three most similar existing posts first.** For a review,
    always read the most recent review in full — it is the voice reference.
 2. **Before they dictate, surface decisions the post will need.** For reviews
-   this is usually: what justifies the score relative to already-rated albums,
-   and who gets the closing teaser. Asking up front beats inventing later.
+   this is usually: how the record sounds different from related albums
+   already reviewed, which section headings he wants, and who gets the
+   closing teaser. Asking up front beats inventing later.
 3. **Invite genuinely loose input.** Tell them repetition, jumping around, and
    self-contradiction are fine. The point of dictation is that they do not have
    to self-edit while talking.
@@ -48,7 +49,11 @@ Confirmed by reading `the_low_end_theory_tribe_called_quest.md` and `mcluhan.md`
 - **First person, personal history over criticism.** What the record meant to
   him, when he listened to it, how it shaped his own production and mixing.
   Not what it meant to hip-hop at large.
-- **No section headings in review bodies.** Continuous prose, ~5-7 paragraphs.
+- **Review bodies use section headings** (from *Midnight Marauders* onward,
+  decided 2026-11-15. *The Low End Theory* predates this and is unheaded
+  prose). He names the headings. Do not invent them. Use `##` headings,
+  since the layout already renders the album as the `<h1>`. Prose under each
+  heading follows the same voice rules below.
 - **No semicolons and no em-dashes.** The Low End Theory body has zero of each
   across seven paragraphs. Comma splices and long run-ons are the house style
   and are deliberate. Do not "fix" them into tighter sentences.
@@ -59,12 +64,17 @@ Confirmed by reading `the_low_end_theory_tribe_called_quest.md` and `mcluhan.md`
   another room or from car speakers"). Specifics carry the argument.
 - **Earned criticism, stated plainly.** Weaknesses get their own paragraph and
   are tied to the score. No hedging, no "your mileage may vary."
-- **Scores are defended comparatively.** A 9.7 next to a 9.8 needs a stated
-  reason for the gap, or the ordering reads as arbitrary.
+- **Compare by sound, not by score.** Scores sit next to each other on the
+  site, but reviews do not argue the gap head to head ("this beats that by
+  0.4 because..."). When a related album is already reviewed, talk about how
+  the two records *sound* different from each other. Do not write a score
+  justification he did not dictate.
 
 ## Review body arc
 
-The layout renders a lot for you. The body is prose only.
+The layout renders a lot for you. The body is prose under his `##` section
+headings. The beats below are what the body should cover, not a fixed
+heading list. Map them onto whatever headings he chooses.
 
 1. Opening hook. Often picks up the thread from the previous review's teaser.
 2. What the record is and why it mattered to him personally.
