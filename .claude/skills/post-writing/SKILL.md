@@ -43,8 +43,8 @@ This is the main way posts get written here. The user talks, you structure.
    always read the most recent review in full — it is the voice reference.
 2. **Before they dictate, surface decisions the post will need.** For reviews
    this is usually: how the record sounds different from related albums
-   already reviewed, which section headings he wants, and who gets the
-   closing teaser. Asking up front beats inventing later.
+   already reviewed, and which section headings he wants. Asking up front
+   beats inventing later.
 3. **Invite genuinely loose input.** Tell them repetition, jumping around, and
    self-contradiction are fine. The point of dictation is that they do not have
    to self-edit while talking.
@@ -66,7 +66,8 @@ Confirmed by reading `the_low_end_theory_tribe_called_quest.md` and `mcluhan.md`
   Not what it meant to hip-hop at large.
 - **Review bodies use section headings** (from *Midnight Marauders* onward,
   decided 2026-11-15. *The Low End Theory* predates this and is unheaded
-  prose). He names the headings. Do not invent them. Use `##` headings,
+  prose). He names the headings. If he doesn't, suggest a set derived from
+  what he dictated and say they are suggestions to rename. Use `##` headings,
   since the layout already renders the album as the `<h1>`. Prose under each
   heading follows the same voice rules below.
 - **No semicolons and no em-dashes.** The Low End Theory body has zero of each
@@ -77,8 +78,9 @@ Confirmed by reading `the_low_end_theory_tribe_called_quest.md` and `mcluhan.md`
 - **Concrete specifics as evidence.** Named players (Ron Carter), engineers
   (Bob Power), label context, sample sources, listening situations ("from
   another room or from car speakers"). Specifics carry the argument.
-- **Earned criticism, stated plainly.** Weaknesses get their own paragraph and
-  are tied to the score. No hedging, no "your mileage may vary."
+- **Earned criticism, stated plainly, when he has some.** If he dictates a
+  weakness, give it its own paragraph. No hedging, no "your mileage may vary."
+  If he doesn't, do not ask for one to justify the score.
 - **Compare by sound, not by score.** Scores sit next to each other on the
   site, but reviews do not argue the gap head to head ("this beats that by
   0.4 because..."). When a related album is already reviewed, talk about how
@@ -91,20 +93,20 @@ The layout renders a lot for you. The body is prose under his `##` section
 headings. The beats below are what the body should cover, not a fixed
 heading list. Map them onto whatever headings he chooses.
 
-1. Opening hook. Often picks up the thread from the previous review's teaser.
-2. What the record is and why it mattered to him personally.
+1. Opening thesis. What the record is, in his framing.
+2. Why it mattered to him personally.
 3. Craft and production. Samples, mixing, the players, how it influences his
    own work.
 4. The listening experience. When and how he plays it now.
-5. The knock. What keeps it off a 10.0.
-6. Close that names the score, then a one-line teaser for the next review.
+5. Optional: a weakness, only if he dictates one.
 
-The teaser matters: each review ends by naming the next album, which makes the
-series chain together. Candidates for the next album live in
-`docs/review-queue.md` (unpublished). Offer them when asking who gets the
-teaser, add albums there whenever the user mentions one they want to review,
-and move an album to "Reviewed" with its score once its review is written. Low End Theory closes with "Next in the series is
-another formative favorite, Midnight Marauders...."
+Reviews do **not** end with a teaser for the next album and do not need to
+explain or defend the score (the layout shows it). *The Low End Theory*'s
+closing "Next in the series is..." line was a one-off for the first post.
+
+The backlog of albums he wants to review lives in `docs/review-queue.md`
+(unpublished). Add albums there whenever he mentions one, and move an album to
+"Reviewed" with its score once its review is written.
 
 ## Review layout contract
 
