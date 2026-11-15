@@ -1,6 +1,6 @@
 ---
 name: post-writing
-description: Write or finish a blog post or music review for this Hugo site from freeform dictated thoughts. Use when the user wants to draft a post, dictate thoughts for a post, finish a draft, or add a music review. Covers front matter format, the review layout contract, Austin's prose voice, and the dictation-to-structure workflow.
+description: Write or finish a blog post or music review for this Hugo site from freeform dictated thoughts. Use when the user wants to draft a post, dictate thoughts for a post, finish a draft, add a music review, or fetch/replace album cover art. Covers front matter format, the review layout contract, high-res cover art sourcing, Austin's prose voice, and the dictation-to-structure workflow.
 ---
 
 # Writing posts for austinatchley.xyz
@@ -96,6 +96,38 @@ tracklist in the markdown. The body is only the essay.
 `score` is a float rendered verbatim, and the pip count is `int score`, so 9.7
 fills 9 pips. Keep one decimal place.
 
+## Album cover art
+
+The cover renders 600px wide (`.review-cover` in the theme's
+`_reviews.scss`), so it needs a **1200×1200 square** for 2x displays. Small
+web-scraped covers (~300px) look soft and stretched. Get covers from the
+Cover Art Archive, which serves real scans with no API key:
+
+```bash
+D=<scratchpad>/covers && mkdir -p "$D"   # downloads go in their own dir
+UA="cover-fetch/1.0"                      # generic UA, no personal details
+
+# 1. Find the release-group MBID (MusicBrainz rate-limits to ~1 req/s and
+#    sometimes answers "server is currently busy": retry after a few seconds)
+curl -s -A "$UA" 'https://musicbrainz.org/ws/2/release-group/?query=releasegroup:%22ALBUM%22%20AND%20artist:%22ARTIST%22&fmt=json&limit=3'
+
+# 2. Download the front cover for that release group
+curl -sL -A "$UA" -o "$D/front.jpg" https://coverartarchive.org/release-group/<MBID>/front
+
+# 3. Resize to 1200x1200 (ffmpeg is installed, ImageMagick and Pillow are not)
+ffmpeg -loglevel error -y -i "$D/front.jpg" -vf scale=1200:1200:flags=lanczos \
+  -q:v 3 -map_metadata -1 static/images/<album>_album_cover.jpg
+```
+
+- **Look at the downloaded image before using it** (Read it). Confirm it is
+  the right album and the original front cover, not a reissue or back cover.
+- Check it is square (`file` prints dimensions). If the source is not square,
+  crop rather than scale, or the art distorts.
+- If the archive's scan is under 1200px, use it at native size rather than
+  upscaling.
+- Name it `<album>_album_cover.jpg` and record the MusicBrainz release ID in
+  the commit message so the source is traceable.
+
 ## Tags
 
 Every post needs at least one tag from the canonical vocabulary in
@@ -114,7 +146,8 @@ Images live in `static/images/` and are referenced as `/images/filename.jpg`.
 
 ## Before finishing
 
-- Verify the image referenced by `cover` actually exists in `static/images/`.
+- Verify the image referenced by `cover` actually exists in `static/images/`
+  and is 1200×1200 (see "Album cover art").
 - Preview with `./scripts/run_local.sh` (serves drafts) if the user wants to
   see it rendered.
 - Commit the markdown and any new image together. Drafts are safe to push to
