@@ -159,10 +159,12 @@ url = "https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX"
 [[params.social]]
 name = "github"
 url = "https://github.com/austinatchley"
+title = "GitHub"
 
 [[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/austin-atchley/"
+title = "LinkedIn"
 
 [[params.social]]
 name = "email"
