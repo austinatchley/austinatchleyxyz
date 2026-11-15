@@ -35,19 +35,19 @@ credits:
     name: "Tom Coyne"
 ---
 
-*Midnight Marauders* is the project with the most fully developed view of the A Tribe Called Quest sonic palette.
+Last time I called *Midnight Marauders* another formative favorite. It's the project with the most fully developed view of the A Tribe Called Quest sonic palette.
 
 ## The sound
 
-The sound is clear but still hits hard. It's not as clean as *The Low End Theory*, and that's on purpose, this is about as close to collage production as Tribe would ever get.
+The sound is clear but still hits hard. It's not as clean as *The Low End Theory*, but that's on purpose. This is about as close to collage-style production as Tribe would ever get, mixing in different vocal snippets and disembodied narrators to usher the album's flow along.
 
 ## More voices
 
-There are various perspectives and storytellers present throughout the album, which is a welcome feature after the reliance on Q-Tip for MC duties on the first two albums. Phife Dawg steps up in a big way to fill those shoes, and on *Midnight Marauders* Q-Tip is able to focus more on production and songwriting.
+There are various perspectives and storytellers present throughout the album, which is a welcome feature after the reliance on Q-Tip for MC duties on the first two albums. Phife Dawg steps up in a big way to fill those shoes, and on *Midnight Marauders* Q-Tip is able to focus more on production and songwriting. It's their best work for exactly that reason.
 
 ## Every song holds up
 
-"Steve Biko (Stir It Up)," "Award Tour," and of course "Electric Relaxation" are the standout tracks, but literally every song holds up. "Electric Relaxation" by itself has thousands of plays from me. To me, this is what pushes it past *The Low End Theory*, its completeness as a project.
+"Steve Biko (Stir It Up)," "Award Tour," and of course "Electric Relaxation" are the standout tracks, but literally every song holds up. "Electric Relaxation" by itself has thousands of plays from me. To me, this is what pushes it past *The Low End Theory* -- its completeness as a project.
 
 ## Ahead of its time
 
