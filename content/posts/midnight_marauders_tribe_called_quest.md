@@ -39,7 +39,7 @@ Last time I called *Midnight Marauders* another formative favorite. It's the pro
 
 ## The sound
 
-The sound is clear but still hits hard. It's not as clean as *The Low End Theory*, but that's on purpose. This is about as close to collage-style production as Tribe would ever get, mixing in different vocal snippets and disembodied narrators to usher the album's flow along.
+The sound is clear but still hits hard. It's not as clean as *The Low End Theory*, but that's on purpose. This is about as close to collage-style production as Tribe would ever get, mixing in different vocal snippets and disembodied narrators to usher the album's flow along. Underrated piece -- Ali Shaheed's cutting / scratching. Interlude type beats galore.
 
 ## More voices
 
