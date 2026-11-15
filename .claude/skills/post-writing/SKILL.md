@@ -26,6 +26,9 @@ post uses TOML. Match the neighboring posts, not the archetype.
   so without it the `Release: ` prefix (and characters like `@`) end up in
   the URL. For a new post use `/posts/<yyyy>/<mm>/<slug>/`. Never change the
   `url` of a published post.
+- Artist links: os.10 Spotify `https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX`,
+  postbag Spotify `https://open.spotify.com/artist/2utynphylBvJrCOrKN9gvc`,
+  postbag Instagram `https://www.instagram.com/postbag.prod/`.
 - Full-size cover art, a short details list (release date, type, lineup),
   the HyperFollow link, and any Instagram clips via `{{</* instagram ID */>}}`.
 
