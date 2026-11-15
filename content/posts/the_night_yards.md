@@ -1,7 +1,7 @@
 +++
 title = "Release: the_night_yards"
 date = "2026-07-21"
-draft = true
+draft = false
 url = "/posts/2026/07/the-night-yards/"
 tags = ["music", "release"]
 +++

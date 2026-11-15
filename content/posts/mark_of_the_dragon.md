@@ -1,7 +1,7 @@
 +++
 title = "Release: mark of the dragon"
 date = "2026-09-11"
-draft = true
+draft = false
 url = "/posts/2026/09/mark-of-the-dragon/"
 tags = ["music", "release"]
 +++

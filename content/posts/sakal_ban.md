@@ -1,7 +1,7 @@
 +++
 title = "Release: sakal ban"
 date = "2024-10-11"
-draft = true
+draft = false
 url = "/posts/2024/10/sakal-ban/"
 tags = ["music", "release"]
 +++

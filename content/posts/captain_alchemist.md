@@ -1,7 +1,7 @@
 +++
 title = "Release: CAPTAIN ALCHEMIST"
 date = "2023-07-15"
-draft = true
+draft = false
 url = "/posts/2023/07/captain-alchemist/"
 tags = ["music", "release"]
 +++

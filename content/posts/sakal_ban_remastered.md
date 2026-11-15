@@ -1,7 +1,7 @@
 +++
 title = "Release: sakal ban (remastered)"
 date = "2026-07-17"
-draft = true
+draft = false
 url = "/posts/2026/07/sakal-ban-remastered/"
 tags = ["music", "release"]
 +++

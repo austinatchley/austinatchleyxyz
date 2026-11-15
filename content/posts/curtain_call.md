@@ -1,7 +1,7 @@
 +++
 title = "Release: curtain call"
 date = "2025-08-12"
-draft = true
+draft = false
 url = "/posts/2025/08/curtain-call/"
 tags = ["music", "release"]
 +++

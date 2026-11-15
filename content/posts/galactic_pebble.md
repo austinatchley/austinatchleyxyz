@@ -1,7 +1,7 @@
 +++
 title = "Release: galactic pebble"
 date = "2026-10-30"
-draft = true
+draft = false
 url = "/posts/2026/10/galactic-pebble/"
 tags = ["music", "release"]
 +++

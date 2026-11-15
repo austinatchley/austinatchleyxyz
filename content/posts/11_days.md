@@ -1,7 +1,7 @@
 +++
 title = "Release: 11 days"
 date = "2024-10-18"
-draft = true
+draft = false
 url = "/posts/2024/10/11-days/"
 tags = ["music", "release"]
 +++

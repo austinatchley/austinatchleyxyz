@@ -1,7 +1,7 @@
 +++
 title = "Release: gelato"
 date = "2026-09-05"
-draft = true
+draft = false
 url = "/posts/2026/09/gelato/"
 tags = ["music", "release"]
 +++

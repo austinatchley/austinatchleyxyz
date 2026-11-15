@@ -1,7 +1,7 @@
 +++
 title = "Release: lighter"
 date = "2025-05-30"
-draft = true
+draft = false
 url = "/posts/2025/05/lighter/"
 tags = ["music", "release"]
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Release: SWORDSEER"
 date = "2025-09-18"
-draft = true
+draft = false
 url = "/posts/2025/09/swordseer/"
 tags = ["music", "release"]
 +++

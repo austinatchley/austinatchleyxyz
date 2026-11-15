@@ -1,7 +1,7 @@
 +++
 title = "Release: a new blade"
 date = "2026-09-04"
-draft = true
+draft = false
 url = "/posts/2026/09/a-new-blade/"
 tags = ["music", "release"]
 +++
