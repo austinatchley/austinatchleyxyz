@@ -19,6 +19,13 @@ I release music as [os.10](https://open.spotify.com/artist/4mEtNdDrhc0JhcgE7kUN1
 * [SWORDSEER by postbag](https://distrokid.com/hyperfollow/postbag/swordseer) (EP) 09/18/2025
 * [skyrat by postbag](https://distrokid.com/hyperfollow/postbag/skyrat) (single) 11/21/2025
 * [oof ahh by postbag](https://distrokid.com/hyperfollow/postbag/oof-ahh) (single) 05/27/2026
+* [sakal ban (remastered) by postbag](https://distrokid.com/hyperfollow/postbag/sakal-ban-remastered) (single) 07/17/2026
+* [the_night_yards by os.10](https://distrokid.com/hyperfollow/os103/the_night_yards) (single) 07/21/2026
+* [a new blade by postbag ft Vy](https://distrokid.com/hyperfollow/postbagandvy/a-new-blade) (single) 09/04/2026
+* [gelato by postbag](https://distrokid.com/hyperfollow/postbag/gelato) (single) 09/05/2026
+* [mark of the dragon by postbag ft Vy](https://distrokid.com/hyperfollow/postbagandvy/mark-of-the-dragon) (single) 09/11/2026
+* [galactic pebble by os.10](https://distrokid.com/hyperfollow/os103/galactic-pebble) (single) 10/30/2026
+* [live @ \[the\] p\[art\]y vol. 5 (feat. Andy Thielen & Josiah DeNooyer) by postbag](https://distrokid.com/hyperfollow/postbag/live--the-party-vol-5-feat-andy-thielen--josiah-denooyer) (single) 11/14/2026
 
 Recently I've also started to record and produce for some of my other friends as well. Here is a running list of credits:
 
