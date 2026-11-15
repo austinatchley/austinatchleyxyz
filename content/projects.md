@@ -6,7 +6,7 @@ aliases = ["/projects/"]
 
 ## Music Projects
 
-I release music as [os.10](https://open.spotify.com/artist/4mEtNdDrhc0JhcgE7kUN1b), primarily under my project [postbag](https://www.instagram.com/postbag.prod) alongside [Sudarshan Iyengar](https://srsiyengar.com/), my friend and frequent collaborator. Here's a running list of releases:
+I release music as [os.10](https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX), primarily under my project [postbag](https://www.instagram.com/postbag.prod) alongside [Sudarshan Iyengar](https://srsiyengar.com/), my friend and frequent collaborator. Here's a running list of releases:
 
 * [MORPHIUS by postbag](https://distrokid.com/hyperfollow/postbagproductions/morphius) (single) 07/06/2023
 * [CAPTAIN ALCHEMIST by postbag](https://distrokid.com/hyperfollow/postbagproductions/captain-alchemist) (single) 07/15/2023

@@ -1,7 +1,8 @@
 +++
-title = "Echoes"
+title = "Release: Echoes"
+url = "/posts/2026/08/echoes/"
 date = "2026-08-11"
-tags = ["music"]
+tags = ["music", "release"]
 +++
 
 ![Echoes](/images/echoes_album_cover.jpg "")

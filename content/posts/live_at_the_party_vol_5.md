@@ -1,9 +1,9 @@
 +++
-title = "live @ [the] p[art]y vol. 5"
+title = "Release: live @ [the] p[art]y vol. 5"
 date = "2026-11-15"
 draft = false
 url = "/posts/2026/11/live-at-the-party-vol-5/"
-tags = ["music"]
+tags = ["music", "release"]
 +++
 
 ![live @ [the] p[art]y vol. 5](/images/live_at_the_party_vol_5_cover.jpg "")

@@ -226,6 +226,7 @@ the gap to the user.
 | `performance` | Performance engineering, animation perf |
 | `personal` | Life / personal essays / updates |
 | `philosophy` | Essays on ideas, ethics, media theory |
+| `release` | Release announcements for my own music or productions (title prefix `Release: `) |
 | `remix` | Remix framework |
 | `roam` | Travel, places, road trips |
 | `software` | General software engineering |

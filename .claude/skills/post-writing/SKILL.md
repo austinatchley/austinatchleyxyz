@@ -17,6 +17,18 @@ you are writing before touching anything.
 The archetype at `archetypes/posts.md` emits YAML, but every existing regular
 post uses TOML. Match the neighboring posts, not the archetype.
 
+**Release announcements** (my own music or productions, e.g. `arboretum.md`,
+`echoes.md`, `live_at_the_party_vol_5.md`) are regular TOML posts with:
+
+- `title = "Release: <release title>"`. The prefix groups them in post lists.
+- `tags = ["music", "release"]`.
+- An explicit `url` front matter field. Permalinks are built from the title,
+  so without it the `Release: ` prefix (and characters like `@`) end up in
+  the URL. For a new post use `/posts/<yyyy>/<mm>/<slug>/`. Never change the
+  `url` of a published post.
+- Full-size cover art, a short details list (release date, type, lineup),
+  the HyperFollow link, and any Instagram clips via `{{</* instagram ID */>}}`.
+
 Filename convention: `snake_case.md`. Reviews are `<album>_<artist>.md`
 (`midnight_marauders_tribe_called_quest.md`).
 

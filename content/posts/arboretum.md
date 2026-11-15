@@ -1,7 +1,8 @@
 +++
-title = "ARBORETUM"
+title = "Release: ARBORETUM"
+url = "/posts/2024/10/arboretum/"
 date = "2024-10-25"
-tags = ["music"]
+tags = ["music", "release"]
 +++
 
 ![ARBORETUM](/images/arboretum_album_cover.jpg "")
