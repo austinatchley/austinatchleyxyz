@@ -60,6 +60,9 @@ images = [""]
 #
 homeSubtitle = "code + music"
 
+# Artist alias shown after the name in the homepage heading ("Name // alias").
+homeAlias = "os.10"
+
 # Set a background for the homepage
 # backgroundImage = "assets/images/background.jpg"
 

@@ -6,7 +6,7 @@
                <img class="portrait-image" src="{{ .Site.Params.Portrait.Path }}" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1>{{ .Site.Title }}{{ with .Site.Params.homeAlias }} <span class="home-alias"><span class="home-alias__sep">//</span> <span class="home-alias__name">{{ . }}</span></span>{{ end }}</h1>
 
             {{ partial "subtitle.html" . }}
 
