@@ -13,7 +13,7 @@ label: "Jive"
 released: "1991"
 genre: ["Alternative Hip-Hop", "Jazz Rap", "Boom Bap"]
 
-score: 9.8
+score: 9.2
 
 blurb: "Hip-hop's 'The Shape of Jazz to Come'"
 
@@ -38,6 +38,6 @@ You don't even need to listen closely to enjoy it. From another room or from car
 
 The only real knock, and the reason I didn't give it a 10.0, is that some of the lyrics and subject matter feel dated now. One song didn't even make the album because it was offensive and homophobic, and knowing that backstory, some of what's on the record hasn't aged too well. It was 1991, a different time where those things were handled differently, and parts of it can be a little hard to listen to.
 
-I don't listen to it as much as I used to, partly on purpose. I try to save it for special occasions when I can appreciate the tracks individually, because I had it on constantly for so long that it stopped being an event. These days it functions more like a blueprint for me when I'm working on my own production. That's the short version of why it earns the 9.8.
+I don't listen to it as much as I used to, partly on purpose. I try to save it for special occasions when I can appreciate the tracks individually, because I had it on constantly for so long that it stopped being an event. These days it functions more like a blueprint for me when I'm working on my own production. That's the short version of why it earns the 9.2.
 
 Next in the series is another formative favorite, Midnight Marauders....

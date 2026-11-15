@@ -14,7 +14,7 @@ label: "Jive"
 released: "1993-11-09"
 genre: ["East Coast Hip-Hop", "Jazz Rap", "Boom Bap", "Alternative Hip-Hop"]
 
-score: 9.7
+score: 9.6
 
 blurb: "Tribe's warmest, funkiest victory lap."
 
