@@ -148,8 +148,13 @@ name = "Austin Atchley"
 
 # Social icons
 [[params.social]]
-name = "email"
-url = "mailto:austinatchley@gmail.com"
+name = "youtube-music"
+url = "https://music.youtube.com/@os.10.mp3"
+title = "YouTube Music"
+
+[[params.social]]
+name = "spotify"
+url = "https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX"
 
 [[params.social]]
 name = "github"
@@ -160,13 +165,8 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/austin-atchley/"
 
 [[params.social]]
-name = "youtube-music"
-url = "https://music.youtube.com/@os.10.mp3"
-title = "YouTube Music"
-
-[[params.social]]
-name = "spotify"
-url = "https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX"
+name = "email"
+url = "mailto:austinatchley@gmail.com"
 
 [languages]
 [languages.en]
