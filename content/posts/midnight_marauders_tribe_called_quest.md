@@ -35,4 +35,20 @@ credits:
     name: "Tom Coyne"
 ---
 
-<!-- Draft: write the review here. -->
+*Midnight Marauders* is the project with the most fully developed view of the A Tribe Called Quest sonic palette.
+
+## The sound
+
+The sound is clear but still hits hard. It's not as clean as *The Low End Theory*, and that's on purpose, this is about as close to collage production as Tribe would ever get.
+
+## More voices
+
+There are various perspectives and storytellers present throughout the album, which is a welcome feature after the reliance on Q-Tip for MC duties on the first two albums. Phife Dawg steps up in a big way to fill those shoes, and on *Midnight Marauders* Q-Tip is able to focus more on production and songwriting.
+
+## Every song holds up
+
+"Steve Biko (Stir It Up)," "Award Tour," and of course "Electric Relaxation" are the standout tracks, but literally every song holds up. "Electric Relaxation" by itself has thousands of plays from me. To me, this is what pushes it past *The Low End Theory*, its completeness as a project.
+
+## Ahead of its time
+
+In some ways I think this album perfected the style many groups were chasing in the mid 90s, but Tribe is releasing this in 1993 (!) whereas many other artists would only get here by '95 or '96. Slum Village and J Dilla were definitely heavily influenced by the album and the way it was mixed. *Midnight Marauders* is probably one of the most influential full hip-hop albums of the era.
