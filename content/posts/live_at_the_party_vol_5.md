@@ -13,11 +13,11 @@ tags = ["music"]
 * **Released:** November 14, 2026 (single)
 * **Recorded:** live at \[the\] p\[art\]y vol. 5 at [@the.art.nyc](https://www.instagram.com/the.art.nyc/), October 10, 2026
 * **Hosted by:** [@dj.devi.exe](https://www.instagram.com/dj.devi.exe/), [@narina.ny](https://www.instagram.com/narina.ny/), and [@muunji.wav](https://www.instagram.com/muunji.wav/)
-* **Lineup:** [@muunji.wav](https://www.instagram.com/muunji.wav/) on the mic, [@os.10.mp3](https://www.instagram.com/os.10.mp3/) on synths, [@musedriano_lyfe](https://www.instagram.com/musedriano_lyfe/) on drums, [@saturnina.wav](https://www.instagram.com/saturnina.wav/) on guitar
+* **Lineup:** [@muunji.wav](https://www.instagram.com/muunji.wav/) on the mic, [@os.10.mp3](https://www.instagram.com/os.10.mp3/) on synths, Josiah DeNooyer ([@musedriano_lyfe](https://www.instagram.com/musedriano_lyfe/)) on drums, Andy Thielen ([@saturnina.wav](https://www.instagram.com/saturnina.wav/)) on guitar
 
 This jam came together last minute. It was the first time any of us had ever played with each other, and we explored two ragas in a totally improvised performance using synths, an ambient soundscape, jazz guitar, jazz drumming, and Indian classical vocals. It's different than anything else we've ever made.
 
-Thanks to Andy and Josiah for their help.
+Thanks to Andy on the guitar and Josiah on the drums, from Los Tres del Monte, a Latin jazz fusion trio.
 
 {{< instagram DfnOH_TxEco >}}
 
