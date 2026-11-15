@@ -153,8 +153,17 @@ ffmpeg -loglevel error -y -i "$D/front.jpg" -vf scale=1200:1200:flags=lanczos \
   the right album and the original front cover, not a reissue or back cover.
 - Check it is square (`file` prints dimensions). If the source is not square,
   crop rather than scale, or the art distorts.
-- If the archive's scan is under 1200px, use it at native size rather than
-  upscaling.
+- If the archive's scan is under 1200px, try these before settling, and never
+  upscale:
+  - **Apple Music:** `https://itunes.apple.com/search?term=<album+artist>&entity=album`,
+    then swap `100x100bb` in `artworkUrl100` for `3000x3000bb`.
+  - **Bandcamp** (official artist page): the `f4.bcbits.com/img/a<ID>_N.jpg`
+    art URL with `_0` instead of `_N` serves the original upload.
+  - **Deezer:** `https://api.deezer.com/search/album?q=...`, field `cover_xl`
+    (1000px).
+  Streaming and Bandcamp sometimes carry reissue or redrawn art (e.g.
+  *Operation: Doomsday*), so compare against the original and ask which to
+  use if they differ.
 - Name it `<album>_album_cover.jpg` and record the MusicBrainz release ID in
   the commit message so the source is traceable.
 
