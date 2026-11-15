@@ -17,4 +17,4 @@ Lives in `docs/`, which Hugo does not build, so nothing here is published.
 ## Reviewed
 
 - [x] *The Low End Theory* — A Tribe Called Quest (9.2)
-- [ ] *Midnight Marauders* — A Tribe Called Quest (9.6, draft in progress)
+- [x] *Midnight Marauders* — A Tribe Called Quest (9.6)

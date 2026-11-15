@@ -1,7 +1,7 @@
 ---
 title: "Music Review: Midnight Marauders — A Tribe Called Quest"
 date: "2026-11-15"
-draft: true
+draft: false
 layout: "review"
 tags: ["music", "music-reviews", "hip-hop", "jazz-rap"]
 
@@ -16,7 +16,7 @@ genre: ["East Coast Hip-Hop", "Jazz Rap", "Boom Bap", "Alternative Hip-Hop"]
 
 score: 9.6
 
-blurb: "Tribe's warmest, funkiest victory lap."
+blurb: "Tribe's funkiest"
 
 credits:
   - role: "Produced by"
@@ -35,7 +35,7 @@ credits:
     name: "Tom Coyne"
 ---
 
-Last time I called *Midnight Marauders* another formative favorite. It's the project with the most fully developed view of the A Tribe Called Quest sonic palette.
+Last time I called *Midnight Marauders* another formative favorite. It's the project with the most fully developed view of the A Tribe Called Quest sonic palette. I had many songs from this record on repeat, but didn't fully appreciate the complete project until later. Now, it's one of my favorite albums to listen to on vinyl.
 
 ## The sound
 
