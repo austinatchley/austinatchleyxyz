@@ -159,6 +159,15 @@ url = "https://github.com/austinatchley"
 name = "linkedin"
 url = "https://www.linkedin.com/in/austin-atchley/"
 
+[[params.social]]
+name = "youtube-music"
+url = "https://music.youtube.com/@os.10.mp3"
+title = "YouTube Music"
+
+[[params.social]]
+name = "spotify"
+url = "https://open.spotify.com/artist/2diBG3rlbYhFNIlZw9CLGX"
+
 [languages]
 [languages.en]
 subtitle = "austinatchley.xyz"
