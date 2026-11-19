@@ -6,6 +6,10 @@ url = "/posts/2026/11/live-at-the-party-vol-5/"
 tags = ["music", "release"]
 +++
 
+{{< youtube 0cv5-zZvD-M >}}
+
+[Watch "live @ \[the\] p\[art\]y vol 5" by postbag on YouTube](https://youtu.be/0cv5-zZvD-M)
+
 ![live @ [the] p[art]y vol. 5](/images/live_at_the_party_vol_5_cover.jpg "")
 
 **live @ \[the\] p\[art\]y vol. 5** by postbag (feat. Andy Thielen & Josiah DeNooyer) is [out now on all platforms!](https://distrokid.com/hyperfollow/postbag/live--the-party-vol-5-feat-andy-thielen--josiah-denooyer)
